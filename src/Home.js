@@ -12,14 +12,14 @@ const TitleStyle = {
   fontSize:'3.5vw',
   position:'absolute',
   top:'40%',
-  right:'11%'
+  right:'10%'
 }
 const SubStyle = {
   color:'white',
-  fontSize:'1.5vw',
+  fontSize:'1.3vw',
   position:'absolute',
-  top:'52%',
-  right:'5%'
+  top:'53%',
+  right:'8.8%'
 }
 
 const HomeColor ={

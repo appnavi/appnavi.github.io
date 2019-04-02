@@ -42,8 +42,8 @@ render(){
 });
 
 const Product  = () => (
-  <div style={{backgroundColor:'black',width:'100%',paddingBottom:'7.0vw'}}>
-  <h1 style={{color:'white',fontSize:'3.5vw',textAlign:'center',backgroundColor:'black',margin:0,paddingTop:'10.0vw',paddingBottom:'4.0vw'}}>Product</h1>
+  <div style={{backgroundColor:'#D2F4FD',width:'100%',paddingBottom:'7.0vw'}}>
+  <h1 style={{color:'black',fontSize:'3.0vw',textAlign:'center',backgroundColor:'#D2F4FD',margin:0,paddingTop:'10.0vw',paddingBottom:'4.0vw'}}>Product</h1>
   <div style={{backgroundColor:'white',width:'90%',height:'60.0vw',margin:'0 auto'}}>
     <div style={{width:'90%',margin:'0 auto',paddingTop:'4.0vw',display:'flex',flexWrap:'wrap',justifyContent:'center'}}>
       <div style={{width:'33%',textAlign:'center',alignSelf:'center'}}>
@@ -70,8 +70,8 @@ const Product  = () => (
   </div>
 )
 const ProductPage =()=> (
-  <div style={{backgroundColor:'black',width:'100%'}}>
-    <h1 style={{color:'white',fontSize:'3.5vw',textAlign:'center',backgroundColor:'black',margin:0,paddingTop:'10.0vw',paddingBottom:'4.0vw'}}>Product</h1>
+  <div style={{backgroundColor:'#D2F4FD',width:'100%'}}>
+    <h1 style={{color:'black',fontSize:'3.0vw',textAlign:'center',backgroundColor:'#D2F4FD',margin:0,paddingTop:'10.0vw',paddingBottom:'4.0vw'}}>Product</h1>
     <ProductContent id = {0} name={newnavi} release="2016/2/4 " contentTitle="新入生ナビ"
        developer="Hyuga Hara" Description="大学生用新歓イベントまとめアプリ" dawnload="fjaklfjakfj;lkjl;j"/>
      <ProductContent id= {1} name={osaka} release="2018/3/22 " contentTitle="大阪城"

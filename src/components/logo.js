@@ -4,10 +4,10 @@ import logoimg from '../images/logo.png';
 
 const logosize ={
   position:'absolute',
-  top:'4.0vw',
-  left:'4.0vw',
-  width:'18vw',
-  height:'18vw'
+  top:'2.0vw',
+  left:'3.0vw',
+  width:'9.8vw',
+  height:'10vw'
 }
 
 const Logo = () =>(
