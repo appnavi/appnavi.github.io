@@ -1,10 +1,10 @@
 self.__precacheManifest = [
   {
-    "revision": "dc21b9be7d021c6667e7c5acec09c8e3",
-    "url": "/appnavihomepage/static/media/fooder.dc21b9be.png"
+    "revision": "85ee555a26089581b420edff0ba0d2f0",
+    "url": "/appnavihomepage/static/media/osaka.85ee555a.png"
   },
   {
-    "revision": "c6bcb6bb220ad0d9d26f",
+    "revision": "11742876f28ebc748d9f",
     "url": "/appnavihomepage/static/css/main.fd9f3f49.chunk.css"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = [
     "url": "/appnavihomepage/static/js/runtime~main.611b7c58.js"
   },
   {
-    "revision": "6681a3937dfdffb97a38",
-    "url": "/appnavihomepage/static/js/2.077f03d9.chunk.js"
+    "revision": "4b54d51f3ccd9c129913",
+    "url": "/appnavihomepage/static/js/2.0115a5db.chunk.js"
   },
   {
     "revision": "3a638e8b8dddd421df7930e82039585c",
@@ -28,12 +28,16 @@ self.__precacheManifest = [
     "url": "/appnavihomepage/static/media/Home.f0c0393b.png"
   },
   {
-    "revision": "85ee555a26089581b420edff0ba0d2f0",
-    "url": "/appnavihomepage/static/media/osaka.85ee555a.png"
+    "revision": "ad0b2210e196307c56942cc67e59bf3c",
+    "url": "/appnavihomepage/static/media/map.ad0b2210.png"
   },
   {
-    "revision": "c6bcb6bb220ad0d9d26f",
-    "url": "/appnavihomepage/static/js/main.8a9af1d1.chunk.js"
+    "revision": "11742876f28ebc748d9f",
+    "url": "/appnavihomepage/static/js/main.92158aa0.chunk.js"
+  },
+  {
+    "revision": "dc21b9be7d021c6667e7c5acec09c8e3",
+    "url": "/appnavihomepage/static/media/fooder.dc21b9be.png"
   },
   {
     "revision": "54d2b63a6a43911a9dcd59ba29616c6d",
@@ -60,7 +64,7 @@ self.__precacheManifest = [
     "url": "/appnavihomepage/static/media/contact.1d6b512a.png"
   },
   {
-    "revision": "c2c89c1b802e5220896ebe8642fe46c1",
+    "revision": "1f91041e13a0973c56abcb3596863b6d",
     "url": "/appnavihomepage/index.html"
   }
 ];
