@@ -13,7 +13,7 @@ const HomeProductStyle = {
   borderColor:'black',
   fontSize:'2.0vw',
   color:'black',
-  fontFamily:'源ノ角ゴシック JP',
+  fontFamily:'ヒラギノ角ゴ Pro',
 }
 
 
