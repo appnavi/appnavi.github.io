@@ -11,7 +11,7 @@ const Headerstyle = {
 
 const HeaderMenu = ({children}) => (
   <div>
-    <div className="header-position" style={{position:'absolute',top:'2.2vw',right:20}}>
+    <div className="header-position" style={{position:'absolute',top:'2.2vw',right:20,fontFamily:'ヒラギノ角ゴ Pro'}}>
       <Link to="/" style={Headerstyle}>Home　</Link>
       <Link to="/About"  style={Headerstyle}>About　</Link>
       <Link to="/Product" style={Headerstyle}>Product　</Link>

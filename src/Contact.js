@@ -5,21 +5,21 @@ import FooterMenu from './components/footer.js';
 const Contact  = () => (
 <div style={{backgroundColor:'#D2F4FD'}}>
   <div style={{width:'80%',margin:'0 auto',paddingBottom:'2.0vw'}}>
-  <h1 style={{color:'black' ,textAlign:'center', paddingTop:'9.0vw',paddingBottom:'1.5vw' ,margin:0,fontSize:'3.0vw'}}>Contact us</h1>
+  <h1 style={{color:'black' ,textAlign:'center', paddingTop:'9.0vw',paddingBottom:'1.5vw' ,margin:0,fontSize:'3.0vw',fontFamily:'ヒラギノ角ゴ Pro'}}>Contact us</h1>
   <div style={{display:'flex',flexDirection:'column',justifyContent:'space-around'}}>
     <div style={{color:'black' ,width:'80%',margin:'0 auto',textAlign:'center',fontSize:'1.8vw'}}>
       <p style={{fontFamily:'ヒラギノ角ゴ Pro,sans-serif'}}>
         お仕事依頼、質問、制作についてはこちらまで</p>
-    <p>Conatact us : contact@appnavi.com</p>
+    <p style={{fontFamily:'ヒラギノ角ゴ Pro'}}>Conatact us : contact@appnavi.com</p>
     <div style={{display:'flex',justifyContent:'space-around',width:'60%',margin:'0 auto'}}>
       <div>
-        <p style={{position:'relative',bottom:'0vw',left:'5vw'}}>Twitter</p>
+        <p style={{position:'relative',bottom:'0vw',left:'5vw',fontFamily:'ヒラギノ角ゴ Pro'}}>Twitter</p>
 
 
           <a href="https://twitter.com/opuappnavi" className="fab fa-twitter"  target="_black"style={{color:'black',fontSize:'4.0vw',textDecoration:'none',position:'relative',bottom:'0vw',left:'5vw'}}></a>
       </div>
       <div>
-        <p style={{position:'relative',bottom:'0vw',right:'4vw'}}>LINE</p>
+        <p style={{position:'relative',bottom:'0vw',right:'4vw',fontFamily:'ヒラギノ角ゴ Pro'}}>LINE</p>
           <a className="fab fa-line" href="#" target="_black" style={{color:'black',fontSize:'4.5vw',textDecoration:'none',position:'relative',bottom:'0.5vw',right:'4vw'}}></a>
         </div>
   </div>

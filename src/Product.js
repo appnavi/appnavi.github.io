@@ -30,10 +30,10 @@ render(){
           <img src={props.name} alt={props.contentTitle} style={{width:'66%',position:'relative',bottom:'-1vw',left:'2vw'}} />
         </div>
         <div style={{width:'60%',color:'black',alignSelf:'center',textAlign:'center',fontSize:'2.5vw'}}>
-          <p style={{fontSize:'2.0vw'}}>{props.release}Release</p>
-          <p style={{fontSize:'2.3vw'}}>{props.contentTitle}</p>
-          <p style={{fontSize:'2.0vw'}}>制作:{props.developer}</p>
-          <p style={{fontSize:'2.0vw'}}>Download:{props.dawnload}</p>
+          <p style={{fontSize:'2.0vw',fontFamily:'ヒラギノ角ゴ Pro',}}>{props.release}Release</p>
+          <p style={{fontSize:'2.3vw',fontFamily:'ヒラギノ角ゴ Pro',}}>{props.contentTitle}</p>
+          <p style={{fontSize:'2.0vw',fontFamily:'ヒラギノ角ゴ Pro',}}>制作:{props.developer}</p>
+          <p style={{fontSize:'2.0vw',fontFamily:'ヒラギノ角ゴ Pro',}}>Download:{props.dawnload}</p>
         </div>
       </div>
     </div>

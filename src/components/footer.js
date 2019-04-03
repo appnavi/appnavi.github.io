@@ -42,22 +42,22 @@ const FooterMenu = () => (
     <div style={{alignSelf:'center',width:'15%'}}>
     <FooterLogo/>
     </div>
-    <div style={{alignSelf:'center',width:'35%'}}>
+    <div style={{alignSelf:'center',width:'35%',fontFamily:'ヒラギノ角ゴ Pro'}}>
       <Link to="/Home" style={FooterStyle}>Home　</Link>
       <Link to="/About"  style={FooterStyle}>About　</Link>
       <Link to="/Product" style={FooterStyle}>Product　</Link>
       <Link to="/News"  style={FooterStyle}>News　</Link>
       <Link to="/Contact"  style={FooterStyle}>Contact</Link>
-      <p style={{color:'white',fontSize:'1.3vw'}}>CONTACT US : contact@appnavi.com</p>
+      <p style={{color:'white',fontSize:'1.3vw',fontFamily:'ヒラギノ角ゴ Pro'}}>CONTACT US : contact@appnavi.com</p>
     </div>
       <div style={{width:'25%', color:'white', display:'flex',
         alignSelf:'center',justifyContent:'space-around'}}>
         <div>
-          <p style={{fontSize:'1.0vw',position:'relative',bottom:'1.2vw',left:'13.5vw'}}>Twitter</p>
+          <p style={{fontSize:'1.0vw',position:'relative',bottom:'1.2vw',left:'13.5vw',fontFamily:'ヒラギノ角ゴ Pro'}}>Twitter</p>
           <a className="fab fa-twitter" href="https://twitter.com/opuappnavi" target="_black"style={{color:'white',fontSize:'3.0vw',textDecoration:'none',position:'relative',bottom:'1.6vw',left:'13.5vw'}}></a>
       </div>
         <div>
-          <p style={{fontSize:'1.0vw',position:'relative',bottom:'1.2vw',left:'10.5vw'}}>LINE</p>
+          <p style={{fontSize:'1.0vw',position:'relative',bottom:'1.2vw',left:'10.5vw',fontFamily:'ヒラギノ角ゴ Pro'}}>LINE</p>
           <a className="fab fa-line" href="#" target="_black" style={{color:'white',fontSize:'3.8vw',textDecoration:'none',position:'relative',bottom:'1.7vw',left:'10vw'}}></a>
         </div>
       </div>
