@@ -47,14 +47,16 @@ const News = () => (
 
 const NewsPage = () => (
   <div>
-    <div style={{backgroundColor:'#D2F4FD',height:'130.0vw'}}>
-    <h1 style={{color:'white',fontSize:'3.5vw',textAlign:'center',backgroundColor:'#D2F4FD',margin:0,paddingTop:'10.0vw',paddingBottom:'4.0vw'}}>News</h1>
-    <div style={{width:'90%',height:'100vw',margin:'0 auto',display:'flex'}}>
-      <div style={{width:'52%',backgroundColor:'white',marginRight:'4%',textAlign:'center'}}>
-      <h3 style={{padding:'2.0vw'}}>活動風景</h3>
+    <div style={{backgroundColor:'#D2F4FD',height:'110.0vw'}}>
+    <h1 style={{color:'black',fontSize:'3.0vw',textAlign:'center',backgroundColor:'#D2F4FD',margin:0,paddingTop:'10.0vw',paddingBottom:'3.0vw'}}>News</h1>
+    <div style={{width:'90%',height:'90vw',margin:'0 auto',display:'flex'}}>
+      <div style={{width:'55%',backgroundColor:'white',marginRight:'4%',textAlign:'center'}}>
+      <h3 style={{padding:'1.0vw',fontSize:'2.5vw'}}>活動風景</h3>
       <div>
-        <p>アットホームな雰囲気で和気あいあいと活動中！(^ ^)</p>
-        <p>未経験も女子も大歓迎です！</p>
+        <p style={{fontSize:'1.8vw'}}>アットホームな雰囲気で和気あいあいと活動中(^ ^)</p>
+        <p style={{fontSize:'1.8vw'}}>未経験も女子部員も大歓迎です！</p>
+        <p style={{marginBottom:'1vw'}}></p>
+
         <div>
             <NewsContent name={active}/>
             <NewsContent name={twitter}/>
@@ -62,10 +64,10 @@ const NewsPage = () => (
         </div>
       </div>
       </div>
-      <div style={{width:'44%',backgroundColor:'white'}}>
-      <h3 style={{textAlign:'center',padding:'2.0vw'}}>新着情報</h3>
+      <div style={{width:'48%',backgroundColor:'white'}}>
+      <h3 style={{textAlign:'center',padding:'1.0vw',fontSize:'2.5vw'}}>新着情報</h3>
       <div style={{textAlign:'center'}}>
-        <TwitterTimelineEmbed sourceType="appnavi" screenName="OPUAppNavi" options={{width:'100%',height:'80vw'}} />
+        <TwitterTimelineEmbed sourceType="appnavi" screenName="OPUAppNavi" options={{width:'100%',height:'78vw'}} />
       </div>
       </div>
     </div>

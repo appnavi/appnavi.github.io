@@ -5,7 +5,7 @@ import FooterMenu from './components/footer.js';
 const Contact  = () => (
 <div style={{backgroundColor:'#D2F4FD'}}>
   <div style={{width:'80%',margin:'0 auto',paddingBottom:'2.0vw'}}>
-  <h1 style={{color:'black' ,textAlign:'center', paddingTop:'9.0vw',paddingBottom:'5.0vw' ,margin:0,fontSize:'3.0vw'}}>Contact us</h1>
+  <h1 style={{color:'black' ,textAlign:'center', paddingTop:'9.0vw',paddingBottom:'1.5vw' ,margin:0,fontSize:'3.0vw'}}>Contact us</h1>
   <div style={{display:'flex',flexDirection:'column',justifyContent:'space-around'}}>
     <div style={{color:'black' ,width:'80%',margin:'0 auto',textAlign:'center',fontSize:'1.8vw'}}>
       <p style={{fontFamily:'ヒラギノ角ゴ Pro,sans-serif'}}>

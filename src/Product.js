@@ -52,7 +52,7 @@ const Product  = () => (
       <div style={{width:'33%',textAlign:'center',alignSelf:'center'}}>
         <img src={food} alt={'food'} style={{width:'70%'}}/>
       </div>
-      <div style={{width:'33%',textAlign:'center',alignSelf:'center'}}>
+      <div style={{width:'33%',textAlign:'center',alignSelf:'center',fontSize:'1.0vw'}}>
         <img src={newnavi} alt={'新入生ナビ'} style={{width:'70%'}}/>
       </div>
       <div style={{width:'33%',textAlign:'center',alignSelf:'center'}}>
@@ -74,6 +74,7 @@ const ProductPage =()=> (
     <h1 style={{color:'black',fontSize:'3.0vw',textAlign:'center',backgroundColor:'#D2F4FD',margin:0,paddingTop:'10.0vw',paddingBottom:'4.0vw'}}>Product</h1>
     <ProductContent id = {0} name={newnavi} release="2016/2/4 " contentTitle="新入生ナビ"
        developer="Hyuga Hara" Description="大学生用新歓イベントまとめアプリ" dawnload="fjaklfjakfj;lkjl;j"/>
+
      <ProductContent id= {1} name={osaka} release="2018/3/22 " contentTitle="大阪城"
        developer="Unity班" Description="大阪城観光VR" dawnload="kjafljklj"/>
     <FooterMenu/>
