@@ -28,12 +28,12 @@ const About  = (props) => ({
 <h3 style={{fontSize:'3.0vw',color:'black',fontFamily:'ヒラギノ角ゴ Pro'}}>About us</h3>
 <div style={textStyle}>
 <p style={{marginBottom:'5vw'}}></p>
-<p style={{lineHeight:'200%',color:'black',fontFamily:'ヒラギノ角ゴ Pro'}}> 大阪府立大学(OPU)でアプリ開発をする部活です </p>
-<p style={{lineHeight:'200%',color:'black',fontFamily:'ヒラギノ角ゴ Pro'}}>アプリ開発だけでなくWebデザインやゲーム、VRを制作中</p>
-<p style={{lineHeight:'200%',color:'black',fontFamily:'ヒラギノ角ゴ Pro'}}>部内で大会を主催して技術力を競い合ったり、勉強会を行っています</p>
-<p style={{lineHeight:'200%',color:'black',fontFamily:'ヒラギノ角ゴ Pro'}}>コンクールへの出場、受賞経験あり</p>
-<p style={{lineHeight:'200%',color:'black',fontFamily:'ヒラギノ角ゴ Pro'}}>未経験者、女子部員も大募集中（女子部員も在籍）</p>
-<p style={{lineHeight:'200%',color:'black',fontFamily:'ヒラギノ角ゴ Pro'}}>新着情報はTwitter,LINEで更新中</p>
+<p style={{lineHeight:'200%',color:'black',fontFamily:'ヒラギノ角ゴ Pro',fontSize:'1.8vw'}}> 大阪府立大学(OPU)でアプリ開発をする部活です </p>
+<p style={{lineHeight:'200%',color:'black',fontFamily:'ヒラギノ角ゴ Pro',fontSize:'1.8vw'}}>アプリ開発だけでなくWebデザインやゲーム、VRを制作中</p>
+<p style={{lineHeight:'200%',color:'black',fontFamily:'ヒラギノ角ゴ Pro',fontSize:'1.8vw'}}>部内で大会を主催して技術力を競い合ったり、勉強会を行っています</p>
+<p style={{lineHeight:'200%',color:'black',fontFamily:'ヒラギノ角ゴ Pro',fontSize:'1.8vw'}}>コンクールへの出場、受賞経験あり</p>
+<p style={{lineHeight:'200%',color:'black',fontFamily:'ヒラギノ角ゴ Pro',fontSize:'1.8vw'}}>未経験者、女子部員も大募集中（女子部員も在籍）</p>
+<p style={{lineHeight:'200%',color:'black',fontFamily:'ヒラギノ角ゴ Pro',fontSize:'1.8vw'}}>新着情報はTwitter,LINEで更新中</p>
 <p style={{marginBottom:'13vw'}}></p>
 
 <div style={{display:'flex'}}>

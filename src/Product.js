@@ -13,7 +13,7 @@ const HomeProductStyle = {
   borderColor:'black',
   fontSize:'2.0vw',
   color:'black',
-  fontFamily:'ヒラギノ角ゴ Pro',
+  fontFamily:'ヒラギノ角ゴ Pro'
 }
 
 
@@ -30,10 +30,10 @@ render(){
           <img src={props.name} alt={props.contentTitle} style={{width:'66%',position:'relative',bottom:'-1vw',left:'2vw'}} />
         </div>
         <div style={{width:'60%',color:'black',alignSelf:'center',textAlign:'center',fontSize:'2.5vw'}}>
-          <p style={{fontSize:'2.0vw',fontFamily:'ヒラギノ角ゴ Pro',}}>{props.release}Release</p>
-          <p style={{fontSize:'2.3vw',fontFamily:'ヒラギノ角ゴ Pro',}}>{props.contentTitle}</p>
-          <p style={{fontSize:'2.0vw',fontFamily:'ヒラギノ角ゴ Pro',}}>制作:{props.developer}</p>
-          <p style={{fontSize:'2.0vw',fontFamily:'ヒラギノ角ゴ Pro',}}>Download:{props.dawnload}</p>
+          <p style={{fontSize:'2.0vw',fontFamily:'ヒラギノ角ゴ Pro'}}>{props.release}Release</p>
+          <p style={{fontSize:'2.3vw',fontFamily:'ヒラギノ角ゴ Pro'}}>{props.contentTitle}</p>
+          <p style={{fontSize:'2.0vw',fontFamily:'ヒラギノ角ゴ Pro'}}>制作:{props.developer}</p>
+          <p style={{fontSize:'2.0vw',fontFamily:'ヒラギノ角ゴ Pro'}}>Download:{props.dawnload}</p>
         </div>
       </div>
     </div>
@@ -43,7 +43,7 @@ render(){
 
 const Product  = () => (
   <div style={{backgroundColor:'#D2F4FD',width:'100%',paddingBottom:'7.0vw'}}>
-  <h1 style={{color:'black',fontSize:'3.0vw',textAlign:'center',backgroundColor:'#D2F4FD',margin:0,paddingTop:'10.0vw',paddingBottom:'4.0vw'}}>Product</h1>
+  <h1 style={{color:'black',fontSize:'3.0vw',textAlign:'center',backgroundColor:'#D2F4FD',margin:0,paddingTop:'10.0vw',paddingBottom:'4.0vw',fontFamily:'ヒラギノ角ゴ Pro'}}>Product</h1>
   <div style={{backgroundColor:'white',width:'90%',height:'60.0vw',margin:'0 auto'}}>
     <div style={{width:'90%',margin:'0 auto',paddingTop:'4.0vw',display:'flex',flexWrap:'wrap',justifyContent:'center'}}>
       <div style={{width:'33%',textAlign:'center',alignSelf:'center'}}>
@@ -71,7 +71,7 @@ const Product  = () => (
 )
 const ProductPage =()=> (
   <div style={{backgroundColor:'#D2F4FD',width:'100%'}}>
-    <h1 style={{color:'black',fontSize:'3.0vw',textAlign:'center',backgroundColor:'#D2F4FD',margin:0,paddingTop:'10.0vw',paddingBottom:'4.0vw'}}>Product</h1>
+    <h1 style={{color:'black',fontSize:'3.0vw',textAlign:'center',backgroundColor:'#D2F4FD',margin:0,paddingTop:'10.0vw',paddingBottom:'4.0vw',fontFamily:'ヒラギノ角ゴ Pro'}}>Product</h1>
     <ProductContent id = {0} name={newnavi} release="2016/2/4 " contentTitle="新入生ナビ"
        developer="Hyuga Hara" Description="大学生用新歓イベントまとめアプリ" dawnload="fjaklfjakfj;lkjl;j"/>
 

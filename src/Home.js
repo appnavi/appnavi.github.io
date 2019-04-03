@@ -12,14 +12,16 @@ const TitleStyle = {
   fontSize:'3.5vw',
   position:'absolute',
   top:'40%',
-  right:'10%'
+  right:'10%',
+  fontFamily:'ヒラギノ角ゴ Pro'
 }
 const SubStyle = {
   color:'white',
   fontSize:'1.3vw',
   position:'absolute',
   top:'53%',
-  right:'8.8%'
+  right:'8.8%',
+  fontFamily:'ヒラギノ角ゴ Pro'
 }
 
 const HomeColor ={
@@ -28,7 +30,8 @@ const HomeColor ={
   paddingTop:'56.22%',
   backgroundImage: `url(${home})`,
   backgroundSize:'cover',
-  position:'relative'
+  position:'relative',
+  fontFamily:'ヒラギノ角ゴ Pro'
 }
 
 //<img src={home} alt="home"style={{position:'relative',width:'100%',margin:0}}/>
