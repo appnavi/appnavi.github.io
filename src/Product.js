@@ -27,13 +27,13 @@ render(){
     <div>
       <div style={{backgroundColor:'white',width:'90%',height:'35vw',margin:'0 auto',marginBottom:'5.0vw',display:'flex',flexDirection:PageSequence[props.id]}}>
         <div style={{width:'40%',textAlign:'center',alignSelf:'center'}}>
-          <img src={props.name} alt={props.contentTitle} style={{width:'62%'}} />
+          <img src={props.name} alt={props.contentTitle} style={{width:'66%',position:'relative',bottom:'-1vw',left:'2vw'}} />
         </div>
         <div style={{width:'60%',color:'black',alignSelf:'center',textAlign:'center',fontSize:'2.5vw'}}>
-          <p>{props.release}Release</p>
-          <p>{props.contentTitle}</p>
-          <p>制作:{props.developer}</p>
-          <p>Download:{props.dawnload}</p>
+          <p style={{fontSize:'2.3vw'}}>{props.release}Release</p>
+          <p style={{fontSize:'2.8vw'}}>{props.contentTitle}</p>
+          <p style={{fontSize:'2.3vw'}}>制作:{props.developer}</p>
+          <p style={{fontSize:'2.3vw'}}>Download:{props.dawnload}</p>
         </div>
       </div>
     </div>
@@ -52,7 +52,7 @@ const Product  = () => (
       <div style={{width:'33%',textAlign:'center',alignSelf:'center'}}>
         <img src={food} alt={'food'} style={{width:'70%'}}/>
       </div>
-      <div style={{width:'33%',textAlign:'center',alignSelf:'center',fontSize:'1.0vw'}}>
+      <div style={{width:'33%',textAlign:'center',alignSelf:'center'}}>
         <img src={newnavi} alt={'新入生ナビ'} style={{width:'70%'}}/>
       </div>
       <div style={{width:'33%',textAlign:'center',alignSelf:'center'}}>
@@ -75,7 +75,7 @@ const ProductPage =()=> (
     <ProductContent id = {0} name={newnavi} release="2016/2/4 " contentTitle="新入生ナビ"
        developer="Hyuga Hara" Description="大学生用新歓イベントまとめアプリ" dawnload="fjaklfjakfj;lkjl;j"/>
 
-     <ProductContent id= {1} name={osaka} release="2018/3/22 " contentTitle="大阪城"
+     <ProductContent id= {1} name={osaka} release="2018/3/22 " contentTitle="大阪城観光VR"
        developer="Unity班" Description="大阪城観光VR" dawnload="kjafljklj"/>
     <FooterMenu/>
   </div>

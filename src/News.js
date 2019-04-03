@@ -11,7 +11,7 @@ import { TwitterTimelineEmbed } from 'react-twitter-embed';
 const NewsContent =(props)=> {
   return(
     <div style={{textAlign:'center',padding:'1.0vw 0'}}>
-      <img src={props.name} alt={props.name} style={{width:'70%'}}/>
+      <img src={props.name} alt={props.name} style={{width:'80%'}}/>
     </div>
   )
 }
