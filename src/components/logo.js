@@ -4,7 +4,7 @@ import logoimg from '../images/logo.png';
 
 const logosize ={
   position:'absolute',
-  top:'2.0vw',
+  top:'1.0vw',
   left:'3.0vw',
   width:'9.8vw',
   height:'10vw'
