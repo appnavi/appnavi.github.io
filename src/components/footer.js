@@ -14,7 +14,7 @@ const FooterSize = {
   width:'100%',
   height:80,
   paddingTop:'4.0vw',
-  paddingBottom:'2.0vw'
+  paddingBottom:'0.0vw'
 
 }
 
@@ -26,8 +26,8 @@ const FooterContainer = {
 
 const FooterLogoSize = {
   height:'6.9vw',
-  width:'6.8vw',
-  position:'relative',bottom:'0.9vw',left:'0vw'
+  width:'6.6vw',
+  position:'relative',bottom:'0.6vw',left:'0vw'
 
 }
 

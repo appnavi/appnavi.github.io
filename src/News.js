@@ -88,8 +88,8 @@ const NewsPage = () => (
       <div>
       <div style={{backgroundColor:'black', width:'100%',height:'12.0vw'}}>
       </div>
-      <div style={{backgroundColor:'#D2F4FD',height:'350.0vw'}}>
-      <h1 style={{color:'white',fontSize:'3.0vw',textAlign:'center',backgroundColor:'#D2F4FD',margin:0,paddingTop:'5.0vw',paddingBottom:'4.0vw'}}>News</h1>
+      <div style={{backgroundColor:'#D2F4FD',height:'315.0vw'}}>
+      <h1 style={{color:'black',fontSize:'3.0vw',textAlign:'center',backgroundColor:'#D2F4FD',margin:0,paddingTop:'5.0vw',paddingBottom:'4.0vw'}}>News</h1>
       <div style={{width:'90%',height:'100vw',margin:'0 auto'}}>
           <div style={{width:'100%',backgroundColor:'white',textAlign:'center'}}>
           <h3 style={{padding:'2.0vw',fontFamily:'ヒラギノ角ゴ Pro',fontSize:'2.3vw'}}>活動風景</h3>
@@ -104,7 +104,7 @@ const NewsPage = () => (
           </div>
           </div>
           <div style={{width:'100%',backgroundColor:'white'}}>
-          <h3 style={{textAlign:'center',padding:'2.0vw',fontFamily:'ヒラギノ角ゴ Pro',fontSize:'2.3vw'}}>新着情報</h3>
+          <h3 style={{textAlign:'center',padding:'4.0vw',margin:'6vw',fontFamily:'ヒラギノ角ゴ Pro',fontSize:'2.3vw'}}>新着情報</h3>
           <div style={{textAlign:'center'}}>
             <TwitterTimelineEmbed sourceType="appnavi" screenName="OPUAppNavi" options={{width:'100%',height:'100vw'}} />
           </div>
