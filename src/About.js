@@ -61,6 +61,8 @@ About.defaultProps = {
 };
 const AboutPage = () => (
   <div>
+    <div style={{backgroundColor:'black', width:'100%',height:'12.0vw'}}>
+    </div>
   <About padding='8.5vw' color='#D2F4FD'fontcolor='white' />
   <FooterMenu/>
   </div>

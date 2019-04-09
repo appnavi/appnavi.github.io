@@ -35,6 +35,8 @@ const Contact  = () => (
 
 const ContactPage =()=> (
   <div>
+    <div style={{backgroundColor:'black', width:'100%',height:'12.0vw'}}>
+    </div>
   <Contact/>
   <FooterMenu/>
   </div>
