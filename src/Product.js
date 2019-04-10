@@ -70,6 +70,9 @@ const Product  = () => (
   </div>
 )
 const ProductPage =()=> (
+  <div>
+    <div style={{backgroundColor:'black', width:'100%',height:'12.0vw'}}>
+  </div>
   <div style={{backgroundColor:'#D2F4FD',width:'100%'}}>
     <h1 style={{color:'black',fontSize:'3.0vw',textAlign:'center',backgroundColor:'#D2F4FD',margin:0,paddingTop:'10.0vw',paddingBottom:'4.0vw',fontFamily:'ヒラギノ角ゴ Pro'}}>Product</h1>
     <ProductContent id = {0} name={newnavi} release="2016/2/4 " contentTitle="新入生ナビ"
@@ -79,5 +82,6 @@ const ProductPage =()=> (
        developer="Unity班" Description="大阪城観光VR" dawnload="kjafljklj"/>
     <FooterMenu/>
   </div>
+</div>
 )
 export  {Product,ProductPage};
