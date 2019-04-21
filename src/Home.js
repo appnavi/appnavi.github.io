@@ -1,5 +1,5 @@
 import React from 'react';
-import home from './images/Home.png';
+import home from './images/Home.jng';
 import {About} from './About.js';
 import {Product} from './Product.js';
 import {News} from './News.js';
@@ -45,7 +45,7 @@ const Home = () => (
   <About/>
   <Product/>
   <News/>
-  <Contact/>
+  <Contact padding='9.0vw'/>
   <FooterMenu/>
   </div>
 )
