@@ -1,16 +1,20 @@
 import React from 'react';
 import contact from './images/contact.png';
 import FooterMenu from './components/footer.js';
+import MediaQuery from 'react-responsive';
 
-const Contact  = () => (
+const Contact  = (props) => (
 <div style={{backgroundColor:'#D2F4FD'}}>
   <div style={{width:'80%',margin:'0 auto',paddingBottom:'2.0vw'}}>
-  <h1 style={{color:'black' ,textAlign:'center', paddingTop:'9.0vw',paddingBottom:'1.5vw' ,margin:0,fontSize:'3.0vw',fontFamily:'ヒラギノ角ゴ Pro'}}>Contact us</h1>
-  <div style={{display:'flex',flexDirection:'column',justifyContent:'space-around'}}>
+  <h1 style={{color:'black' ,textAlign:'center', paddingTop:props.padding,paddingBottom:'1.5vw' ,margin:0,fontSize:'3.0vw',fontFamily:'ヒラギノ角ゴ Pro'}}>Contact us</h1>
+    <div style={{width:'100%',textAlign:'center',paddingTop:'5.0vw'}}>
+    <img src={contact} alt="contact" style= {{width:'85%',margin:'0 auto'}}/>
+    </div>
+<div style={{display:'flex',flexDirection:'column',justifyContent:'space-around'}}>
     <div style={{color:'black' ,width:'80%',margin:'0 auto',textAlign:'center',fontSize:'1.8vw'}}>
       <p style={{fontFamily:'ヒラギノ角ゴ Pro,sans-serif'}}>
         お仕事依頼、質問、制作についてはこちらまで</p>
-    <p style={{fontFamily:'ヒラギノ角ゴ Pro'}}>Conatact us : contact@appnavi.com</p>
+      <p style={{fontFamily:'ヒラギノ角ゴ Pro'}}>Conatact us : contact@opuappnavi.com</p>
     <div style={{display:'flex',justifyContent:'space-around',width:'60%',margin:'0 auto'}}>
       <div>
         <p style={{position:'relative',bottom:'0vw',left:'5vw',fontFamily:'ヒラギノ角ゴ Pro'}}>Twitter</p>
@@ -24,9 +28,6 @@ const Contact  = () => (
         </div>
   </div>
   </div>
-  <div style={{width:'100%',textAlign:'center',paddingTop:'5.0vw'}}>
-  <img src={contact} alt="contact" style= {{width:'85%',margin:'0 auto'}}/>
-  </div>
   </div>
 
   </div>
@@ -37,7 +38,10 @@ const ContactPage =()=> (
   <div>
     <div style={{backgroundColor:'black', width:'100%',height:'12.0vw'}}>
     </div>
-  <Contact/>
+    <Contact padding='5.0vw'/>
+  <MediaQuery query="(max-width:473px)">
+  <div style={{backgroundColor:'#D2F4FD',width:'100%',height:'26vh'}}></div>
+</MediaQuery>
   <FooterMenu/>
   </div>
 )

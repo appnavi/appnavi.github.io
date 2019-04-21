@@ -1,10 +1,10 @@
 import React from 'react';
 import FooterMenu from './components/footer.js';
 import twitter from './images/s_Twitter2.JPG';
-import active from './images/active1.png';
-import newshome from './images/newshomeimg.png';
-import hackathon from './images/hackathon.png';
-import  newsdirection from './images/newsdirection.png';
+import active from './images/active1.jpg';
+import newshome from './images/newshomeimg.jpg';
+import hackathon from './images/hackathon.jpg';
+import  newsdirection from './images/newsdirection.jpg';
 import {Link} from 'react-router-dom';
 import { TwitterTimelineEmbed } from 'react-twitter-embed';
 import MediaQuery from 'react-responsive';

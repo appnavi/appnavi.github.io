@@ -7,6 +7,7 @@ const FooterStyle = {
   fontFamily:'ヒラギノ角ゴ Pro',
   color:'white',
   textDecoration:'none',
+  padding:'1.0vw',
 }
 
 const FooterSize = {
@@ -15,7 +16,6 @@ const FooterSize = {
   height:80,
   paddingTop:'4.0vw',
   paddingBottom:'0.0vw'
-
 }
 
 const FooterContainer = {
@@ -28,7 +28,6 @@ const FooterLogoSize = {
   height:'6.9vw',
   width:'6.6vw',
   position:'relative',bottom:'0.6vw',left:'0vw'
-
 }
 
 
@@ -43,12 +42,12 @@ const FooterMenu = () => (
     <FooterLogo/>
     </div>
     <div style={{alignSelf:'center',width:'35%',fontFamily:'ヒラギノ角ゴ Pro'}}>
-      <Link to="/Home" style={FooterStyle}>Home　</Link>
-      <Link to="/About"  style={FooterStyle}>About　</Link>
-      <Link to="/Product" style={FooterStyle}>Product　</Link>
-      <Link to="/News"  style={FooterStyle}>News　</Link>
-      <Link to="/Contact"  style={FooterStyle}>Contact</Link>
-      <p style={{color:'white',fontSize:'1.3vw',fontFamily:'ヒラギノ角ゴ Pro'}}>CONTACT US : contact@appnavi.com</p>
+      <Link to="/Home" className='headerstyle2' style={FooterStyle}>Home</Link>
+      <Link to="/About" className='headerstyle2' style={FooterStyle}>About</Link>
+      <Link to="/Product"className='headerstyle2' style={FooterStyle}>Product</Link>
+      <Link to="/News" className='headerstyle2' style={FooterStyle}>News</Link>
+      <Link to="/Contact" className='headerstyle2' style={FooterStyle}>Contact</Link>
+      <p style={{color:'white',fontSize:'1.3vw',fontFamily:'ヒラギノ角ゴ Pro'}}>CONTACT US : contact@opuappnavi.com</p>
     </div>
       <div style={{width:'25%', color:'white', display:'flex',
         alignSelf:'center',justifyContent:'space-around'}}>
