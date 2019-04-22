@@ -1,5 +1,5 @@
 import React from 'react';
-import home from './images/Home.jng';
+import home from './images/Home.jpg';
 import {About} from './About.js';
 import {Product} from './Product.js';
 import {News} from './News.js';
