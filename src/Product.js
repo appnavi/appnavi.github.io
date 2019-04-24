@@ -89,7 +89,7 @@ const ProductPage =()=> (
     <ProductContent id= {1} name={music} release="2018/11/02 " width='56%' contentTitle={<p style={{fontSize:'2.2vw',fontFamily:'ヒラギノ角ゴ Pro'}}>音楽リズムゲーム♫<br></br></p>}
      description={<p style={{fontSize:'1.8vw',fontFamily:'ヒラギノ角ゴ Pro'}}>音楽に合わせて画面をタッチ、得点を競おう</p>}/>
      <ProductContent id = {0} name={name}  release="2019/03/04" width='56%' contentTitle={<p style={{fontSize:'2.2vw',fontFamily:'ヒラギノ角ゴ Pro'}}>Name音衣夢 </p>}
-                 description={<p style={{fontSize:'1.8vw',fontFamily:'ヒラギノ角ゴ Pro', lineHeight:'200%'}}>外国の方のEnglish nameを<br></br>日本の漢字名前に変換するアプリ</p>}/>
+                 description={<p style={{fontSize:'1.8vw',fontFamily:'ヒラギノ角ゴ Pro', lineHeight:'200%'}}>外国の方のEnglish nameを<br></br>日本の漢字の名前に変換するアプリ</p>}/>
                <ProductContent id= {3} name={vr} release="2016/11/04 " width='77%' contentTitle={<p style={{fontSize:'2.2vw',fontFamily:'ヒラギノ角ゴ Pro'}}>スクリーンゲーム<br></br><br></br>VRアドベンチャー！</p>}
           description={<p style={{fontSize:'1.8vw',fontFamily:'ヒラギノ角ゴ Pro'}}>弾を使って恐竜を倒すVRゲーム</p>}/>
         <ProductContent id = {2} name={torokko} width='77%' contentTitle={<p style={{fontSize:'2.2vw',fontFamily:'ヒラギノ角ゴ Pro'}}>スクリーンゲーム<br></br><br></br>トロッコクイズ</p>}
