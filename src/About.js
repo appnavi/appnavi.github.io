@@ -95,11 +95,11 @@ const AboutPage = () => (
     <div style={{backgroundColor:'black', width:'100%',height:'12.0vw'}}>
     </div>
     <div style={{backgroundColor:'#D2F4FD',width:'100%',paddingBottom:'3.0vw'}}>
-      <h2 style={{fontSize:'3.0vw',margin:'0',textAlign:'center',paddingTop:'5.0vw'}}>About us</h2>
+      <h2 style={{fontSize:'3.0vw',margin:'0',textAlign:'center',paddingTop:'5.0vw',fontFamily:'ヒラギノ角ゴ Pro'}}>About us</h2>
       <div style={{backgroundColor:'white',width:'90%',paddingBottom:'1.5vw',margin:'0 auto'}}>
-      <h3 style={{fontSize:'2.5vw',textAlign:'center',paddingTop:'3.0vw',paddingBottom:'2.0vw'}}>随時更新中</h3>
-      <div style={{width:'100%',fontSize:'1.8vw',paddingLeft:'3.0vw'}}>
-        <div>
+      <h3 style={{fontSize:'2.5vw',textAlign:'center',paddingTop:'3.0vw',paddingBottom:'2.0vw',fontFamily:'ヒラギノ角ゴ Pro'}}>随時更新中</h3>
+      <div style={{width:'100%',fontSize:'1.8vw',paddingLeft:'3.0vw',fontFamily:'ヒラギノ角ゴ Pro'}}>
+        <div style={{fontFamily:'ヒラギノ角ゴ Pro'}}>
           <p >・2018/8 VTuberハッカソン全国ツアー2018大阪大会　大阪駆動開発賞　受賞</p>
           <p> アプリナビのメンバーがチームの一員として参加させていただきました！</p>
           <p>作品名：「キレッキレ on Ice」チーム</p>
@@ -128,7 +128,7 @@ const AboutPage = () => (
             }
           }}</MediaQuery>
           </div>
-        <div style={{paddingTop:'5.0vw'}}>
+        <div style={{paddingTop:'5.0vw',fontFamily:'ヒラギノ角ゴ Pro'}}>
         <p>・2018/11 VR 小野賢章さん</p>
         <p>アニメ声優同好会主催の小野賢章さんのトークイベントにVR作成として<br></br>
             参加させていただきました！</p>
