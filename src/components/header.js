@@ -2,6 +2,7 @@ import React from 'react';
 import {Link} from 'react-router-dom';
 
 const Headerstyle = {
+  padding:'1.5vw',
   fontSize:'1.8vw',
   width:952,
   fontFamily:'ヒラギノ角ゴ Pro',
