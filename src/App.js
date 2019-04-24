@@ -9,11 +9,11 @@ class AppPage extends Component {
 
   constructor() {
     super()
-      this.state = { isLoading: true }
+      this.state = { isLoading: false }
   }
 
   componentDidMount() {
-   setTimeout(() => this.setState({ isLoading: true }), 2500);
+   setTimeout(() => this.setState({ isLoading: false }), 2500);
   }
 
 
