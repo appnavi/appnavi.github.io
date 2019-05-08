@@ -42,7 +42,7 @@ const FooterMenu = () => (
     <FooterLogo/>
     </div>
     <div style={{alignSelf:'center',width:'35%',fontFamily:'ヒラギノ角ゴ Pro'}}>
-      <Link to="/Home" className='headerstyle2' style={FooterStyle}>Home</Link>
+      <Link to="/" className='headerstyle2' style={FooterStyle}>Home</Link>
       <Link to="/About" className='headerstyle2' style={FooterStyle}>About</Link>
       <Link to="/Product"className='headerstyle2' style={FooterStyle}>Product</Link>
       <Link to="/News" className='headerstyle2' style={FooterStyle}>News</Link>
