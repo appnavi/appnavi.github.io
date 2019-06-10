@@ -108,7 +108,7 @@ self.__precacheManifest = [
     "url": "/static/media/osaka.b7400ed4.jpg"
   },
   {
-    "revision": "2323c7e3929f219e02d4b4119c0916b9",
+    "revision": "140cdc28af40f9bdf980927e48c33bdc",
     "url": "/index.html"
   }
 ];
