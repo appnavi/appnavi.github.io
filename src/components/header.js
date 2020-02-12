@@ -5,7 +5,8 @@ const Headerstyle = {
   padding:'1.5vw',
   fontSize:'1.8vw',
   width:952,
-  fontFamily:'ヒラギノ角ゴ Pro',
+  fontFamily:'源ノ角ゴシック JP',
+  fontWeight:"bold",
   color:'white',
   textDecoration:'none',
 }

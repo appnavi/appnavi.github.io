@@ -5,6 +5,7 @@ import {Product} from './Product.js';
 import {News} from './News.js';
 import {Contact} from './Contact.js';
 import FooterMenu from './components/footer.js';
+import Slideshow from './components/slideshow.js';
 
 
 const TitleStyle = {
@@ -24,7 +25,7 @@ const SubStyle = {
   fontFamily:'ヒラギノ角ゴ Pro'
 }
 
-const HomeColor ={
+/*const HomeColor ={
   maxWidth:'100%',
   height: 0,
   paddingTop:'56.22%',
@@ -32,16 +33,13 @@ const HomeColor ={
   backgroundSize:'cover',
   position:'relative',
   fontFamily:'ヒラギノ角ゴ Pro'
-}
+}*/
 
 //<img src={home} alt="home"style={{position:'relative',width:'100%',margin:0}}/>
 
 const Home = () => (
   <div>
-    <div style={HomeColor}>
-      <h1 style={TitleStyle}>App Navi</h1>
-      <h2 style={SubStyle}>大阪府立大学　部活　アプリナビ</h2>
-    </div>
+    <Slideshow/>
   <About/>
   <Product/>
   <News/>

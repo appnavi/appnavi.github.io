@@ -1,7 +1,6 @@
 import React from 'react';
 import store from './images/appstore.jpg';
 import newnavi from './images/newnavi.jpg';
-import osaka from './images/osaka.jpg';
 import food from './images/fooder.jpg';
 import name from './images/name.jpg';
 import music from './images/musicTop.jpg';
