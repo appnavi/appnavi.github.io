@@ -6,8 +6,8 @@ const logosize ={
   position:'absolute',
   top:'1.0vw',
   left:'3.0vw',
-  width:'9.8vw',
-  height:'10vw'
+  width:'9.5vw',
+  height:'9.7vw'
 }
 
 const Logo = () =>(

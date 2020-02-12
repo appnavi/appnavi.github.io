@@ -8,6 +8,35 @@ import  newsdirection from './images/newsdirection.jpg';
 import {Link} from 'react-router-dom';
 import { TwitterTimelineEmbed } from 'react-twitter-embed';
 import MediaQuery from 'react-responsive';
+import YouTube from 'react-youtube';
+import onoken from './images/onoken.jpg';
+import onoken2 from './images/onokensyou2.jpg';
+import vtuber from './images/slack-imgs.jpg';
+
+class VtuberYouTube extends React.Component {
+  render(props) {
+    const opts = {
+      height:this.props.hei,
+      width: this.props.wid,
+      playerVars: { // https://developers.google.com/youtube/player_parameters
+        autoplay: 0
+      }
+    };
+
+    return (
+      <YouTube
+        videoId="7hdy0J1tRu8"
+        opts={opts}
+        onReady={this._onReady}
+      />
+    );
+  }
+
+  _onReady(event) {
+    // access to player in all event handlers via event.target
+    event.target.pauseVideo();
+  }
+}
 
 
 const NewsContent =(props)=> {
@@ -110,6 +139,52 @@ const NewsPage = () => (
           </div>
           </div>
         </div>
+      </div>
+
+      <div style={{width:'100%',fontSize:'1.8vw',paddingLeft:'3.0vw',fontFamily:'ヒラギノ角ゴ Pro'}}>
+        <div style={{fontFamily:'ヒラギノ角ゴ Pro'}}>
+          <p >・2018/8 VTuberハッカソン全国ツアー2018大阪大会　大阪駆動開発賞　受賞</p>
+          <p> アプリナビのメンバーがチームの一員として参加させていただきました！</p>
+          <p>作品名：「キレッキレ on Ice」チーム</p>
+          <p>詳細はこちら↓</p>
+          <MediaQuery minWidth={980}>
+          {(matches) => {
+            if(matches) {
+              return   <div style={{display:'flex'}}>
+                <div style={{width:'50%'}}>
+                  <VtuberYouTube wid='426' hei='240'/>
+                </div>
+                <div style={{width:'50%'}}>
+                  <img src={vtuber} alt="vtuber" style={{width:'80%'}}/>
+                </div>
+              </div>;
+
+            } else {
+              return <div>
+                <div style={{width:'80%',paddingBottom:'2.0vw'}}>
+                  <VtuberYouTube wid="250" hei="136"/>
+                </div >
+                <div>
+                  <img src={vtuber} alt="vtuber" style={{width:'60%'}}/>
+              </div>
+                  </div> ;
+            }
+          }}</MediaQuery>
+          </div>
+        <div style={{paddingTop:'5.0vw',fontFamily:'ヒラギノ角ゴ Pro'}}>
+        <p>・2018/11 VR 小野賢章さん</p>
+        <p>アニメ声優同好会主催の小野賢章さんのトークイベントにVR作成として<br></br>
+            参加させていただきました！</p>
+        <p>作品名：ハリーポッターとVR</p>
+        <div style={{display:'flex'}}>
+          <div style={{width:'80%'}}>
+            <img src={onoken} alt='小野賢章さん' style={{width:'80%'}}/>
+          </div>
+          <div style={{width:'80%'}}>
+            <img src={onoken2} alt='小野賢章さんとの全体写真' style={{width:'80%'}}/>
+        </div>
+         </div>
+            </div>
       </div>
     </div>
     )

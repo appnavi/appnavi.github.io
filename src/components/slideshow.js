@@ -34,11 +34,11 @@ const Slideshow = () => {
       <div className="slide-container">
         <Slide {...properties}>
           <div className="each-slide">
-            <div style={{maxWidth:"100%",height:"49.0vw",backgroundSize:"cover",backgroundImage: `url(${home})`}}>
+            <div style={{maxWidth:"100%",height:"50.0vw",backgroundSize:"cover",backgroundImage: `url(${home})`}}>
 </div>
           </div>
           <div className="each-slide">
-            <div style={{maxWidth:"100%",height:"49.0vw",backgroundSize:"cover",backgroundImage: `url(${spring})`}}>
+            <div style={{maxWidth:"100%",height:"50.0vw",backgroundSize:"cover",backgroundImage: `url(${spring})`}}>
              </div>
           </div>
         </Slide>
