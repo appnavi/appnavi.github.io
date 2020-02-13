@@ -2,7 +2,7 @@ import React from 'react';
 import FooterMenu from './components/footer.js';
 import {Link} from 'react-router-dom';
 import aboutTop from './images/AboutTop.jpg';
-
+import SimpleMap from './components/googleMap.js';
 
 
 const textStyle = {
@@ -66,10 +66,17 @@ const AboutPage = () => (
   <p style={{lineHeight:'200%',color:'black',fontFamily:'ヒラギノ角ゴ Pro',fontSize:'1.8vw'}}>大阪府立大学(OPU)でアプリ開発をする部活です。</p>
   <p style={{lineHeight:'200%',color:'black',fontFamily:'ヒラギノ角ゴ Pro',fontSize:'1.8vw'}}>アプリ開発だけでなくWebデザインやゲーム、VRを制作中</p>
   <p style={{lineHeight:'200%',color:'black',fontFamily:'ヒラギノ角ゴ Pro',fontSize:'1.8vw'}}>部内で大会を主催して技術力を競い合ったり、勉強会を行っています</p>
-  <p style={{marginBottom:'13vw'}}></p>
-
+  <p style={{marginBottom:'9vw'}}></p>
     </div>
     </div>
+    <div style={{backgroundColor:"#DEDEDE",width:"100%"}}>
+  <div style={{width:"80%",height:"60.0vw",margin:"0 auto"}}>
+    <div style={{textAlign:"center",margin:"0 auto"}}>
+    <SimpleMap/>
+       </div>
+  </div>
+  </div>
+  
     <FooterMenu/>
   </div>
 )

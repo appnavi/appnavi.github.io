@@ -26,7 +26,7 @@ const Home = () => (
   <About/>
   <Product/>
   <News/>
-  <Contact padding='9.0vw'/>
+  <Contact padding='9.0vw' color="white" backcolor="#454242" width="80%"/>
   <FooterMenu/>
   </div>
 )
