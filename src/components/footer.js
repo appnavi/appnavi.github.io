@@ -44,7 +44,7 @@ const FooterMenu = () => (
     <div style={{alignSelf:'center',width:'35%',fontFamily:'ヒラギノ角ゴ Pro'}}>
       <Link to="/" className='headerstyle2' style={FooterStyle}>Home</Link>
       <Link to="/About" className='headerstyle2' style={FooterStyle}>About</Link>
-      <Link to="/Product"className='headerstyle2' style={FooterStyle}>Product</Link>
+      <Link to="/Product"className='headerstyle2' style={FooterStyle}>Works</Link>
       <Link to="/News" className='headerstyle2' style={FooterStyle}>News</Link>
       <Link to="/Contact" className='headerstyle2' style={FooterStyle}>Contact</Link>
       <p style={{color:'white',fontSize:'1.3vw',fontFamily:'ヒラギノ角ゴ Pro'}}>CONTACT US : contact@opuappnavi.com</p>

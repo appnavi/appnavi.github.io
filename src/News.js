@@ -161,8 +161,9 @@ const NewsPage = () => (
       <div>
       <div style={{backgroundColor:'black', width:'100%',height:'12.0vw'}}>
       </div>
-      <div style={{backgroundColor:'#D2F4FD',height:'315.0vw'}}>
-      <h1 style={{color:'black',fontSize:'3.0vw',textAlign:'center',backgroundColor:'#D2F4FD',margin:0,paddingTop:'5.0vw',paddingBottom:'4.0vw',fontFamily:'ヒラギノ角ゴ Pro'}}>News</h1>
+      <img src = {newsTop} alt ="newstop" style ={{width:'100%'}}/>
+      <div style={{backgroundColor:'white',height:'150.0vw'}}>
+      <h1 style={{color:'black',fontSize:'3.0vw',textAlign:'center',backgroundColor:'white',margin:0,paddingTop:'5.0vw',paddingBottom:'4.0vw',fontFamily:'ヒラギノ角ゴ Pro'}}>News</h1>
       <div style={{width:'90%',height:'100vw',margin:'0 auto'}}>
 
           <div style={{width:'100%',backgroundColor:'white'}}>

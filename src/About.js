@@ -2,7 +2,7 @@ import React from 'react';
 import FooterMenu from './components/footer.js';
 import {Link} from 'react-router-dom';
 import aboutTop from './images/AboutTop.jpg';
-import SimpleMap from './components/googleMap.js';
+import GoogleMaps from './components/googleMap.js';
 
 
 const textStyle = {
@@ -72,7 +72,8 @@ const AboutPage = () => (
     <div style={{backgroundColor:"#DEDEDE",width:"100%"}}>
   <div style={{width:"80%",height:"60.0vw",margin:"0 auto"}}>
     <div style={{textAlign:"center",margin:"0 auto"}}>
-    <SimpleMap/>
+      
+    <GoogleMaps latitude="34.5457708" longitude= "135.505894" />
        </div>
   </div>
   </div>
