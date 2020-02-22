@@ -9,7 +9,7 @@ import vr from './images/VRSenden.jpg';
 import appnavi from './images/apphomepage.jpg';
 import torokko from './images/トロッコ.jpg';
 import balloon from './images/風船.jpg';
- import FooterMenu from './components/footer.js';
+import FooterMenu from './components/footer.js';
 import {Link} from 'react-router-dom';
 import  undvo from'./images/UNDVOSOLTEX.jpg';
 import  undvoIcon from'./images/UNDVOSOLTEXIcon.png';
@@ -20,6 +20,7 @@ import tax_officerIcon from './images/tax_officerIcon.jpg';
 import spaceshooter from './images/SpaceShooter.png';
 import spaceshooterIcon from './images/SpaceShooterIcon.png';
 import naviIcon from './images/naviIcon.png';
+import worksback from './images/WorksBack.png';
 
 const properties = {
   duration: 10000,
@@ -36,30 +37,30 @@ const properties = {
 
 const Slideshow = () => {
     return (
-      <div className="slide-container">
+      <div className="slide-container" style={{height:"48vw",backgroundImage:`url(${worksback})`,backgroundPosition: "center" ,backgroundSize: "cover",
+      backgroundRepeat: "no-repeat"}}>
         <Slide {...properties}>
-          <div className="each-slide">
-          <ProductContent id = {0} name={spaceshooter}  width='56%' contentTitle={<p style={{fontSize:'2.2vw',fontFamily:'ヒラギノ角ゴ Pro'}}>SpaceShooter<br></br></p>}
-          description={<p style={{fontSize:'1.8vw',fontFamily:'ヒラギノ角ゴ Pro'}}>Android Studioを用いて作成した、シンプルなSFシューティングゲームです。
-          <br></br><br></br>ダウンロードはこちらから↓</p>}/>
+          <div className="each-slide" style={{marginTop:"7.5vw"}}>
+          <ProductContent id = {0} name={spaceshooter}  width='95%' contentTitle={<p style={{fontSize:'2.2vw',fontFamily:'ヒラギノ角ゴ Pro'}}>SpaceShooter<br></br></p>}
+     description={<p style={{fontSize:'1.8vw',fontFamily:'ヒラギノ角ゴ Pro'}}>Android Studioを用いて作成した、<br></br>シンプルなSFシューティングゲームです。
+     <br></br><br></br></p>}/>
           </div>
-          <div className="each-slide">
-          <ProductContent id = {1} name={tax_officer}  width='56%' contentTitle={<p style={{fontSize:'2.2vw',fontFamily:'ヒラギノ角ゴ Pro'}}>税官、家を買う<br></br></p>}
-          description={<p style={{fontSize:'1.8vw',fontFamily:'ヒラギノ角ゴ Pro'}}>税官になり、増税して、反対してくる納税者を大砲で吹っ飛ばしながら、集めた税金で大きな家を買うミニゲームです。
-          <br></br><br></br>ダウンロードはこちらから↓</p>}/>
+          <div className="each-slide"  style={{marginTop:"7.5vw"}}>
+          <ProductContent id = {1} name={tax_officer}  width='95%' contentTitle={<p style={{fontSize:'2.2vw',fontFamily:'ヒラギノ角ゴ Pro'}}>税官、家を買う<br></br></p>}
+     description={<p style={{fontSize:'1.8vw',fontFamily:'ヒラギノ角ゴ Pro'}}>税官になり、増税して、<br></br>反対してくる納税者を大砲で吹っ飛ばしながら、<br></br>集めた税金で大きな家を買うミニゲームです。
+     <br></br><br></br>ダウンロードはこちらから↓</p>}/>
           </div>
-          <div className="each-slide">
-          <ProductContent id = {0} name={rizufuru}  width='56%' contentTitle={<p style={{fontSize:'2.2vw',fontFamily:'ヒラギノ角ゴ Pro'}}>りずふる<br></br></p>}
-          description={<p style={{fontSize:'1.8vw',fontFamily:'ヒラギノ角ゴ Pro'}}>音楽のリズムに合わせて落ちてくる果物を収穫するゲームです。(2019年度白鷺祭展示
-          <br></br><br></br>ダウンロードはこちらから↓</p>}/>
-
+          <div className="each-slide"  style={{marginTop:"7.5vw"}}>
+          <ProductContent id = {0} name={rizufuru}  width='95%' contentTitle={<p style={{fontSize:'2.2vw',fontFamily:'ヒラギノ角ゴ Pro'}}>りずふる<br></br></p>}
+     description={<p style={{fontSize:'1.8vw',fontFamily:'ヒラギノ角ゴ Pro'}}>音楽のリズムに合わせて落ちてくる<br></br>果物を収穫するゲームです。<br></br>(2019年度白鷺祭展示)</p>}/> 
+     
           </div>
-          <div className="each-slide">
-          <ProductContent id = {1} name={undvo}  width='56%' contentTitle={<p style={{fontSize:'2.2vw',fontFamily:'ヒラギノ角ゴ Pro'}}>UNDVO SOLTEX<br></br></p>}
-          description={<p style={{fontSize:'1.8vw',fontFamily:'ヒラギノ角ゴ Pro'}}>無線コントローラとモバイルバッテリーでいつでも
-          どこでもプレイできるポータブルかつ正統派な音ゲーです (技術書名古屋の陣出展作品)
-          <br></br><br></br>ダウンロードはこちらから↓</p>}/>
-
+          <div className="each-slide"  style={{marginTop:"7.5vw"}}>
+          <ProductContent id = {1} name={undvo}  width='65%' contentTitle={<p style={{fontSize:'2.2vw',fontFamily:'ヒラギノ角ゴ Pro'}}>UNDVO SOLTEX<br></br></p>}
+     description={<p style={{fontSize:'1.8vw',fontFamily:'ヒラギノ角ゴ Pro'}}>無線コントローラとモバイルバッテリーでいつでも<br></br>
+     どこでもプレイできるポータブルかつ正統派な音ゲーです<br></br> (技術書名古屋の陣出展作品)</p>} dawnload ={<a style={{textDecoration:"none"}}
+        href="https://twitter.com/appGeneu_73/status/1207061911944060929?s=20" target="_blank" >詳細はこちらから！</a>} />
+     
           </div>
         
         
@@ -95,7 +96,10 @@ render(){
           <img src={props.name} alt={props.contentTitle} style={{width:props.width,position:'relative',bottom:'-1vw',left:PagePadding[props.id]}} />
         </div>
         <div style={{width:'60%',color:'black',alignSelf:'center',textAlign:'center',fontSize:'2.5vw'}}>
-          <p style={{fontSize:'2.0vw',fontFamily:'ヒラギノ角ゴ Pro'}}>作品名：{props.contentTitle}</p>
+          <div style={{display:"flex"}}>
+          <p style={{paddingTop:"0.45vw",width:"20%",fontSize:'2.0vw',fontFamily:'ヒラギノ角ゴ',paddingLeft:"20%"}}>作品名:</p>
+          <div style={{width:"70%",fontSize:'2.0vw',fontFamily:'ヒラギノ角ゴ Pro',paddingRight:"18%"}}>{props.contentTitle}</div>
+          </div>
           <p style={{fontSize:'2.0vw',fontFamily:'ヒラギノ角ゴ Pro'}}>{props.description}</p>
           <p style={{fontSize:'2.0vw',fontFamily:'ヒラギノ角ゴ Pro'}}>{props.dawnload}</p>
         </div>
@@ -111,7 +115,7 @@ const ProductTopContent = (props) =>({
     return(
       <div style={{width:'33%',textAlign:'center',alignSelf:'center' ,height:"30vw"}}>
       <img src={props.image} alt={props.image} style={{width:props.image_width}}/>
-      <p style={{color:"#454242",fontSize:"2.0vw"}}>{props.title}</p>
+      <p style={{color:"#454242",fontSize:"2.5vw"}}>{props.title}</p>
     </div>
     )
   }
@@ -121,22 +125,20 @@ const Product2019 = (props)=> ({
   render(){
     return(
       <div>
-          <ProductContent id = {0} name={spaceshooter}  width='56%' contentTitle={<p style={{fontSize:'2.2vw',fontFamily:'ヒラギノ角ゴ Pro'}}>SpaceShooter<br></br></p>}
-     description={<p style={{fontSize:'1.8vw',fontFamily:'ヒラギノ角ゴ Pro'}}>Android Studioを用いて作成した、シンプルなSFシューティングゲームです。
-     <br></br><br></br>ダウンロードはこちらから↓</p>}/>
-     <ProductContent id = {1} name={tax_officer}  width='56%' contentTitle={<p style={{fontSize:'2.2vw',fontFamily:'ヒラギノ角ゴ Pro'}}>税官、家を買う<br></br></p>}
-     description={<p style={{fontSize:'1.8vw',fontFamily:'ヒラギノ角ゴ Pro'}}>税官になり、増税して、反対してくる納税者を大砲で吹っ飛ばしながら、集めた税金で大きな家を買うミニゲームです。
-     <br></br><br></br>ダウンロードはこちらから↓</p>}/>
-     <ProductContent id = {0} name={rizufuru}  width='56%' contentTitle={<p style={{fontSize:'2.2vw',fontFamily:'ヒラギノ角ゴ Pro'}}>りずふる<br></br></p>}
-     description={<p style={{fontSize:'1.8vw',fontFamily:'ヒラギノ角ゴ Pro'}}>音楽のリズムに合わせて落ちてくる果物を収穫するゲームです。(2019年度白鷺祭展示
-     <br></br><br></br>ダウンロードはこちらから↓</p>}/>
-     <ProductContent id = {1} name={undvo}  width='56%' contentTitle={<p style={{fontSize:'2.2vw',fontFamily:'ヒラギノ角ゴ Pro'}}>UNDVO SOLTEX<br></br></p>}
-     description={<p style={{fontSize:'1.8vw',fontFamily:'ヒラギノ角ゴ Pro'}}>無線コントローラとモバイルバッテリーでいつでも
-     どこでもプレイできるポータブルかつ正統派な音ゲーです (技術書名古屋の陣出展作品)
-     <br></br><br></br>ダウンロードはこちらから↓</p>}/>
-    
+      <ProductContent id = {0} name={spaceshooter}  width='95%' contentTitle={<p style={{fontSize:'2.2vw',fontFamily:'ヒラギノ角ゴ Pro'}}>SpaceShooter<br></br></p>}
+     description={<p style={{fontSize:'1.8vw',fontFamily:'ヒラギノ角ゴ Pro'}}>Android Studioを用いて作成した、<br></br>シンプルなSFシューティングゲームです。
+     <br></br><br></br></p>}/>
 
-     
+     <ProductContent id = {1} name={tax_officer}  width='95%' contentTitle={<p style={{fontSize:'2.2vw',fontFamily:'ヒラギノ角ゴ Pro'}}>税官、家を買う<br></br></p>}
+     description={<p style={{fontSize:'1.8vw',fontFamily:'ヒラギノ角ゴ Pro'}}>税官になり、増税して、<br></br>反対してくる納税者を大砲で吹っ飛ばしながら、<br></br>集めた税金で大きな家を買うミニゲームです。
+     <br></br><br></br>ダウンロードはこちらから↓</p>}/>
+
+     <ProductContent id = {0} name={rizufuru}  width='95%' contentTitle={<p style={{fontSize:'2.2vw',fontFamily:'ヒラギノ角ゴ Pro'}}>りずふる<br></br></p>}
+     description={<p style={{fontSize:'1.8vw',fontFamily:'ヒラギノ角ゴ Pro'}}>音楽のリズムに合わせて落ちてくる<br></br>果物を収穫するゲームです。<br></br>(2019年度白鷺祭展示)</p>}/> 
+     <ProductContent id = {1} name={undvo}  width='65%' contentTitle={<p style={{fontSize:'2.2vw',fontFamily:'ヒラギノ角ゴ Pro'}}>UNDVO SOLTEX<br></br></p>}
+     description={<p style={{fontSize:'1.8vw',fontFamily:'ヒラギノ角ゴ Pro'}}>無線コントローラとモバイルバッテリーでいつでも<br></br>
+     どこでもプレイできるポータブルかつ正統派な音ゲーです<br></br> (技術書名古屋の陣出展作品)</p>} dawnload ={<a style={{textDecoration:"none"}}
+        href="https://twitter.com/appGeneu_73/status/1207061911944060929?s=20" target="_blank" >詳細はこちらから！</a>} />
       </div>
       
     )
@@ -228,12 +230,12 @@ const Product  = () => (
   <h1 style={{color:'white',fontSize:'3.0vw',textAlign:'center',backgroundColor:'#454242',margin:0,paddingTop:'10.0vw',paddingBottom:'4.0vw',fontFamily:'ヒラギノ角ゴ Pro'}}>Works</h1>
   <div style={{backgroundColor:'white',width:'90%',height:'65.0vw',margin:'0 auto'}}>
     <div style={{width:'90%',margin:'0 auto',paddingTop:'4.0vw',display:'flex',flexWrap:'wrap',justifyContent:'center'}}>
-     <ProductTopContent image={spaceshooterIcon} image_width='73%' title="SpaceShooter" />
+     <ProductTopContent image={spaceshooterIcon} image_width='68%' title="SpaceShooter" />
      <ProductTopContent image={tax_officerIcon} image_width='68%' title="税官、家を買う" />
      <ProductTopContent image={rizufuruIcon} image_width='68%' title="りずふる" />
      <ProductTopContent image={undvoIcon} image_width='68%' title="UNDVO SOLTEX" />
      <ProductTopContent image={naviIcon} image_width='68%' title="新入生ナビ" />
-     <ProductTopContent image={nameIcon} image_width='68%' title="音衣夢" />
+     <ProductTopContent image={nameIcon} image_width='68%' title="音衣夢 name" />
 
      
 

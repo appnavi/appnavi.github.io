@@ -38,7 +38,7 @@ const ContactPage =()=> (
   <div>
     <div style={{backgroundColor:'black', width:'100%',height:'12.0vw'}}>
     </div>
-    <img src={contact} alt="contact" style= {{width:"100%",height:"45vw" ,margin:'0 auto'}}/>
+    <img src={contact} alt="contact" style= {{width:"100%",height:"55vw" ,margin:'0 auto'}}/>
     <Contact padding='5.0vw' color="black" backcolor="white" width="0%"/>
   <MediaQuery query="(max-width:473px)">
   <div style={{backgroundColor:'white',width:'100%',height:'26vh'}}></div>
