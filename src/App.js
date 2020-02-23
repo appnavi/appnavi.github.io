@@ -13,7 +13,7 @@ class AppPage extends Component {
   }
 
   componentDidMount() {
-   setTimeout(() => this.setState({ isLoading: false }), 2500);
+   setTimeout(() => this.setState({ isLoading: true }), 2500);
   }
 
 
