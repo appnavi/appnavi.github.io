@@ -9,7 +9,7 @@ class AppPage extends Component {
 
   constructor() {
     super()
-      this.state = { isLoading: false }
+      this.state = { isLoading: true }
   }
 
   componentDidMount() {
