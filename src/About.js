@@ -3,22 +3,13 @@ import FooterMenu from './components/footer.js';
 import {Link} from 'react-router-dom';
 import aboutTop from './images/AboutTop.jpg';
 import GoogleMaps from './components/googleMap.js';
-
+import buttonArrow from './images/bottomArrow.png';
+import map from './images/map.jpg';
 
 const textStyle = {
   fontSize:'2.0vw'
 }
 
-const AboutButtonStyle ={
-  display:"inline-block",
-  color: "black",
-  textDecoration: "none",
-  backgroundColor: "black",
-  borderRadius: "50%",
-  position: "relative",
-  height: "50px",
-  width: "50px"
-  }  
   
 
 const About  = (props) => ({
@@ -35,10 +26,11 @@ const About  = (props) => ({
 <p style={{lineHeight:'200%',color:'black',fontFamily:'ヒラギノ角ゴ Pro',fontSize:'1.8vw'}}>コンクールへの出場、受賞経験あり</p>
 <p style={{lineHeight:'200%',color:'black',fontFamily:'ヒラギノ角ゴ Pro',fontSize:'1.8vw'}}>未経験者、女子部員も大募集中（女子部員も在籍）</p>
 <p style={{lineHeight:'200%',color:'black',fontFamily:'ヒラギノ角ゴ Pro',fontSize:'1.8vw'}}>新着情報はTwitter,LINEで更新中</p>
-<p style={{marginBottom:'13vw'}}></p>
+<p style={{marginBottom:'5vw'}}></p>
 
 <div>
-<Link to="/About" style={AboutButtonStyle} ></Link>
+  <Link to="/About" ><img src = {buttonArrow} alt ="buttonArrow" style ={{width:'10%'}}/></Link>
+
   </div>  
       
 </div>
@@ -70,10 +62,12 @@ const AboutPage = () => (
     </div>
     </div>
     <div style={{backgroundColor:"#DEDEDE",width:"100%"}}>
-  <div style={{width:"80%",height:"60.0vw",margin:"0 auto"}}>
+  <div style={{width:"80%",height:"70.0vw",margin:"0 auto",paddingTop:"5vw"}}>
     <div style={{textAlign:"center",margin:"0 auto"}}>
-      
-    <GoogleMaps latitude="34.5457708" longitude= "135.505894" />
+      <p style={{fontSize:"2vw",paddingBottom:"1.5vw",fontFamily:"源ノ角ゴシック JP",fontWeight:"bold"}}>活動場所　A-5棟<br></br>週１回(活動曜日は学期によって異なります)</p>
+      <img src = {map} alt ="map" style={{width:"80%"}}></img>
+    {//<GoogleMaps latitude="34.5457708" longitude= "135.505894" />
+    }
        </div>
   </div>
   </div>

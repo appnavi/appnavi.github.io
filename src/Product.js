@@ -21,6 +21,8 @@ import spaceshooter from './images/SpaceShooter.png';
 import spaceshooterIcon from './images/SpaceShooterIcon.png';
 import naviIcon from './images/naviIcon.png';
 import worksback from './images/WorksBack.png';
+import seeMore from './images/SeeMore.png';
+import googlebudge from './images/google-play-badge.png';
 
 const properties = {
   duration: 10000,
@@ -41,26 +43,26 @@ const Slideshow = () => {
       backgroundRepeat: "no-repeat"}}>
         <Slide {...properties}>
           <div className="each-slide" style={{marginTop:"7.5vw"}}>
-          <ProductContent id = {0} name={spaceshooter}  width='95%' contentTitle={<p style={{fontSize:'2.2vw',fontFamily:'ヒラギノ角ゴ Pro'}}>SpaceShooter<br></br></p>}
-     description={<p style={{fontSize:'1.8vw',fontFamily:'ヒラギノ角ゴ Pro'}}>Android Studioを用いて作成した、<br></br>シンプルなSFシューティングゲームです。
-     <br></br><br></br></p>}/>
-          </div>
-          <div className="each-slide"  style={{marginTop:"7.5vw"}}>
-          <ProductContent id = {1} name={tax_officer}  width='95%' contentTitle={<p style={{fontSize:'2.2vw',fontFamily:'ヒラギノ角ゴ Pro'}}>税官、家を買う<br></br></p>}
-     description={<p style={{fontSize:'1.8vw',fontFamily:'ヒラギノ角ゴ Pro'}}>税官になり、増税して、<br></br>反対してくる納税者を大砲で吹っ飛ばしながら、<br></br>集めた税金で大きな家を買うミニゲームです。
-     <br></br><br></br>ダウンロードはこちらから↓</p>}/>
-          </div>
-          <div className="each-slide"  style={{marginTop:"7.5vw"}}>
-          <ProductContent id = {0} name={rizufuru}  width='95%' contentTitle={<p style={{fontSize:'2.2vw',fontFamily:'ヒラギノ角ゴ Pro'}}>りずふる<br></br></p>}
-     description={<p style={{fontSize:'1.8vw',fontFamily:'ヒラギノ角ゴ Pro'}}>音楽のリズムに合わせて落ちてくる<br></br>果物を収穫するゲームです。<br></br>(2019年度白鷺祭展示)</p>}/> 
-     
+          <ProductContent id = {3} name={tax_officer}  width='95%' contentTitle={<p style={{fontSize:'2.2vw',fontFamily:'ヒラギノ角ゴ Pro'}}>税官、家を買う<br></br></p>}
+     description={<p style={{fontSize:'1.8vw',fontFamily:'ヒラギノ角ゴ Pro'}}>概要:税官になり、増税して、反対してくる納税者を大砲で吹っ飛ばしながら、集めた税金で大きな家を買うミニゲームです。</p>}
+     dawnload ={<a href="https://play.google.com/store/apps/details?id=com.AppNavi.Zeikan" target = "_black"><img src={googlebudge} alt="ダウンロードはこちらから" style={{width:"18.0vw"}} /></a>} />
           </div>
           <div className="each-slide"  style={{marginTop:"7.5vw"}}>
           <ProductContent id = {1} name={undvo}  width='65%' contentTitle={<p style={{fontSize:'2.2vw',fontFamily:'ヒラギノ角ゴ Pro'}}>UNDVO SOLTEX<br></br></p>}
-     description={<p style={{fontSize:'1.8vw',fontFamily:'ヒラギノ角ゴ Pro'}}>無線コントローラとモバイルバッテリーでいつでも<br></br>
-     どこでもプレイできるポータブルかつ正統派な音ゲーです<br></br> (技術書名古屋の陣出展作品)</p>} dawnload ={<a style={{textDecoration:"none"}}
+     description={<p style={{fontSize:'1.8vw',fontFamily:'ヒラギノ角ゴ Pro'}}>概要：無線コントローラとモバイルバッテリーでいつでもどこでもプレイできるポータブルかつ正統派な音ゲーです<br></br> (技術書名古屋の陣出展作品)</p>} dawnload ={<a style={{textDecoration:"none"}}
         href="https://twitter.com/appGeneu_73/status/1207061911944060929?s=20" target="_blank" >詳細はこちらから！</a>} />
      
+          </div>
+          <div className="each-slide"  style={{marginTop:"7.5vw"}}>
+          <ProductContent id = {2} name={rizufuru}  width='95%' contentTitle={<p style={{fontSize:'2.2vw',fontFamily:'ヒラギノ角ゴ Pro'}}>りずふる<br></br></p>}
+     description={<p style={{fontSize:'1.8vw',fontFamily:'ヒラギノ角ゴ Pro'}}>概要：音楽のリズムに合わせて落ちてくる<br></br>果物を収穫するゲームです。<br></br>(2019年度白鷺祭展示)</p>}/> 
+          </div>
+          <div className="each-slide"  style={{marginTop:"7.5vw"}}>
+     
+     <ProductContent id = {0} name={spaceshooter}  width='95%' contentTitle={<p style={{fontSize:'2.2vw',fontFamily:'ヒラギノ角ゴ Pro'}}>SpaceShooter<br></br></p>}
+     description={<p style={{fontSize:'1.8vw',fontFamily:'ヒラギノ角ゴ Pro'}}>概要：Android Studioを用いて作成した、<br></br>シンプルなSFシューティングゲームです。
+     <br></br><br></br></p>}/>
+         
           </div>
         
         
@@ -70,7 +72,7 @@ const Slideshow = () => {
 }
 
 
-const HomeProductStyle = {
+/*const HomeProductStyle = {
   width: "0",
   height: "0",
   borderLeft: "10vw solid transparent",
@@ -79,7 +81,16 @@ const HomeProductStyle = {
   backgroundColor:"#454242",
   paddingBottom:"5vw",
   verticalAlign: "middle"
-}
+}*/
+
+/*const GotoWorkStyle = {
+
+  width: '30vw',
+  height: 0,
+  borderLeft: '30vw solid transparent',
+  borderRight: '30vw solid transparent',
+  borderTop: '15vw solid white',
+}*/
 
 
 
@@ -91,17 +102,18 @@ render(){
 
   return(
     <div>
-      <div style={{backgroundColor:'white',width:'90%',height:'35vw',margin:'0 auto',marginBottom:'5.0vw',display:'flex',flexDirection:PageSequence[props.id]}}>
+      <div style={{backgroundColor:'white',width:'90%',height:'35vw',padding:"2% 0",margin:'0 auto',marginBottom:'5.0vw',display:'flex',flexDirection:PageSequence[props.id]}}>
         <div style={{width:'40%',textAlign:'center',alignSelf:'center'}}>
           <img src={props.name} alt={props.contentTitle} style={{width:props.width,position:'relative',bottom:'-1vw',left:PagePadding[props.id]}} />
         </div>
-        <div style={{width:'60%',color:'black',alignSelf:'center',textAlign:'center',fontSize:'2.5vw'}}>
+        <div style={{width:'60%',color:'black',alignSelf:'center',fontSize:'2.5vw'}}>
           <div style={{display:"flex"}}>
-          <p style={{paddingTop:"0.45vw",width:"20%",fontSize:'2.0vw',fontFamily:'ヒラギノ角ゴ',paddingLeft:"20%"}}>作品名:</p>
-          <div style={{width:"70%",fontSize:'2.0vw',fontFamily:'ヒラギノ角ゴ Pro',paddingRight:"18%"}}>{props.contentTitle}</div>
+          <p style={{color:"#454242",paddingTop:"0.45vw",width:"20%",fontSize:'2.0vw',fontFamily:'ヒラギノ角ゴ',paddingLeft:"10%",fontWeight:"bold"}}>作品名:</p>
+          <div style={{color:"#454242",width:"70%",fontSize:'2.0vw',textAlign:"left",fontFamily:'ヒラギノ角ゴ Pro',paddingRight:"10%",fontWeight:"bold"}}>{props.contentTitle}</div>
           </div>
-          <p style={{fontSize:'2.0vw',fontFamily:'ヒラギノ角ゴ Pro'}}>{props.description}</p>
-          <p style={{fontSize:'2.0vw',fontFamily:'ヒラギノ角ゴ Pro'}}>{props.dawnload}</p>
+          <p style={{color:"#454242",paddingTop:"0.20vw",width:"70%",fontSize:'2.0vw',fontFamily:'ヒラギノ角ゴ',paddingLeft:"10%",marginTop:"0",fontWeight:"bold",lineHeight:"200%"}}>{props.description}</p>
+         
+          <p style={{fontSize:'2.0vw',fontFamily:'ヒラギノ角ゴ Pro',marginLeft:"25%"}}>{props.dawnload}</p>
         </div>
       </div>
     </div>
@@ -115,8 +127,9 @@ const ProductTopContent = (props) =>({
     return(
       <div style={{width:'33%',textAlign:'center',alignSelf:'center' ,height:"30vw"}}>
       <img src={props.image} alt={props.image} style={{width:props.image_width}}/>
-      <p style={{color:"#454242",fontSize:"2.5vw"}}>{props.title}</p>
+      <p style={{color:"#454242",fontSize:"2.5vw",fontFamily:"源ノ角ゴシック JP"}}>{props.title}</p>
     </div>
+     
     )
   }
 });
@@ -126,18 +139,17 @@ const Product2019 = (props)=> ({
     return(
       <div>
       <ProductContent id = {0} name={spaceshooter}  width='95%' contentTitle={<p style={{fontSize:'2.2vw',fontFamily:'ヒラギノ角ゴ Pro'}}>SpaceShooter<br></br></p>}
-     description={<p style={{fontSize:'1.8vw',fontFamily:'ヒラギノ角ゴ Pro'}}>Android Studioを用いて作成した、<br></br>シンプルなSFシューティングゲームです。
+     description={<p style={{fontSize:'1.8vw',fontFamily:'ヒラギノ角ゴ Pro'}}>概要：Android Studioを用いて作成した、<br></br>シンプルなSFシューティングゲームです。
      <br></br><br></br></p>}/>
 
-     <ProductContent id = {1} name={tax_officer}  width='95%' contentTitle={<p style={{fontSize:'2.2vw',fontFamily:'ヒラギノ角ゴ Pro'}}>税官、家を買う<br></br></p>}
-     description={<p style={{fontSize:'1.8vw',fontFamily:'ヒラギノ角ゴ Pro'}}>税官になり、増税して、<br></br>反対してくる納税者を大砲で吹っ飛ばしながら、<br></br>集めた税金で大きな家を買うミニゲームです。
-     <br></br><br></br>ダウンロードはこちらから↓</p>}/>
+     <ProductContent id = {3} name={tax_officer}  width='95%' contentTitle={<p style={{fontSize:'2.2vw',fontFamily:'ヒラギノ角ゴ Pro'}}>税官、家を買う<br></br></p>}
+     description={<p style={{fontSize:'1.8vw',fontFamily:'ヒラギノ角ゴ Pro'}}>概要：税官になり、増税して、反対してくる納税者を大砲で吹っ飛ばしながら、集めた税金で大きな家を買うミニゲームです。</p>}
+     dawnload ={<a href="https://play.google.com/store/apps/details?id=com.AppNavi.Zeikan" target = "_black"><img src={googlebudge} alt="ダウンロードはこちらから" style={{width:"18.0vw"}} /></a>}/>
 
-     <ProductContent id = {0} name={rizufuru}  width='95%' contentTitle={<p style={{fontSize:'2.2vw',fontFamily:'ヒラギノ角ゴ Pro'}}>りずふる<br></br></p>}
-     description={<p style={{fontSize:'1.8vw',fontFamily:'ヒラギノ角ゴ Pro'}}>音楽のリズムに合わせて落ちてくる<br></br>果物を収穫するゲームです。<br></br>(2019年度白鷺祭展示)</p>}/> 
+     <ProductContent id = {2} name={rizufuru}  width='95%' contentTitle={<p style={{fontSize:'2.2vw',fontFamily:'ヒラギノ角ゴ Pro'}}>りずふる<br></br></p>}
+     description={<p style={{fontSize:'1.8vw',fontFamily:'ヒラギノ角ゴ Pro'}}>概要：音楽のリズムに合わせて落ちてくる<br></br>果物を収穫するゲームです。<br></br>(2019年度白鷺祭展示)</p>}/> 
      <ProductContent id = {1} name={undvo}  width='65%' contentTitle={<p style={{fontSize:'2.2vw',fontFamily:'ヒラギノ角ゴ Pro'}}>UNDVO SOLTEX<br></br></p>}
-     description={<p style={{fontSize:'1.8vw',fontFamily:'ヒラギノ角ゴ Pro'}}>無線コントローラとモバイルバッテリーでいつでも<br></br>
-     どこでもプレイできるポータブルかつ正統派な音ゲーです<br></br> (技術書名古屋の陣出展作品)</p>} dawnload ={<a style={{textDecoration:"none"}}
+     description={<p style={{fontSize:'1.8vw',fontFamily:'ヒラギノ角ゴ Pro'}}>概要：無線コントローラとモバイルバッテリーでいつでもどこでもプレイできるポータブルかつ正統派な音ゲーです (技術書名古屋の陣出展作品)</p>} dawnload ={<a style={{textDecoration:"none"}}
         href="https://twitter.com/appGeneu_73/status/1207061911944060929?s=20" target="_blank" >詳細はこちらから！</a>} />
       </div>
       
@@ -149,11 +161,12 @@ const Product2018 = (props) => ({
   render(){
     return(
       <div>
-          <ProductContent id= {1} name={music}  width='56%' contentTitle={<p style={{fontSize:'2.2vw',fontFamily:'ヒラギノ角ゴ Pro'}}>音楽リズムゲーム♫<br></br></p>}
-     description={<p style={{fontSize:'1.8vw',fontFamily:'ヒラギノ角ゴ Pro'}}>音楽に合わせて画面をタッチ、得点を競おう</p>}/>
+         
      <ProductContent id = {0} name={name}  width='56%' contentTitle={<p style={{fontSize:'2.2vw',fontFamily:'ヒラギノ角ゴ Pro'}}>Name音衣夢 </p>}
-                description={<p style={{fontSize:'1.8vw',fontFamily:'ヒラギノ角ゴ Pro', lineHeight:'200%'}}>外国の方のEnglish nameを<br></br>日本の漢字の名前に変換するアプリ</p>}/>
-    
+                description={<p style={{fontSize:'1.8vw',fontFamily:'ヒラギノ角ゴ Pro', lineHeight:'200%'}}>概要：外国の方のEnglish nameを日本の漢字の名前に変換するアプリ<br></br>ダウンロードすれば海外での友達作りに困らないはず！</p>} dawnload={<a href="https://apps.apple.com/jp/app/name%E9%9F%B3%E8%A1%A3%E5%A4%A2/id1470090957" target='_black'>
+      <img src={store} alt={'ダウンロードはこちらから'} style={{width:'18.0vw'}}/></a>}/>
+     <ProductContent id= {1} name={music}  width='56%' contentTitle={<p style={{fontSize:'2.2vw',fontFamily:'ヒラギノ角ゴ Pro'}}>音楽リズムゲーム♫<br></br></p>}
+     description={<p style={{fontSize:'1.8vw',fontFamily:'ヒラギノ角ゴ Pro'}}>概要：音楽に合わせて画面をタッチして<br></br>得点を競おう</p>}/>
       </div>
     )
   }
@@ -164,15 +177,15 @@ const Product2017 = (props) => ({
     return(
       <div>
         <ProductContent id = {0} name={newnavi}  width='56%' contentTitle={<p style={{fontSize:'2.2vw',fontFamily:'ヒラギノ角ゴ Pro'}}>新入生Navi<br></br></p>}
-     description={<p style={{fontSize:'1.8vw',fontFamily:'ヒラギノ角ゴ Pro'}}>大学生用新入生歓迎イベントまとめアプリ<br></br><br></br>ダウンロードはこちらから↓</p>}　dawnload={<a href="https://itunes.apple.com/jp/app/%E6%96%B0%E5%85%A5%E7%94%9Fnavi2019/id1156503289?mt=8" target='_black'>
-      <img src={store} alt={'ダウンロードはこちらから'} style={{width:'20%'}}/>
+     description={<p style={{fontSize:'1.8vw',fontFamily:'ヒラギノ角ゴ Pro'}}>概要：大学の新入生歓迎イベントをまとめたカレンダーアプリ<br></br><br></br>最新の新刊情報をいち早くお届け</p>} dawnload={<a href="https://itunes.apple.com/jp/app/%E6%96%B0%E5%85%A5%E7%94%9Fnavi2019/id1156503289?mt=8" target='_black'>
+      <img src={store} alt={'ダウンロードはこちらから'} style={{width:'18.0vw'}}/>
       </a>}/>
                <ProductContent id= {3} name={vr}  width='77%' contentTitle={<p style={{fontSize:'2.2vw',fontFamily:'ヒラギノ角ゴ Pro'}}>スクリーンゲーム<br></br><br></br>VRアドベンチャー！</p>}
-          description={<p style={{fontSize:'1.8vw',fontFamily:'ヒラギノ角ゴ Pro'}}>弾を使って恐竜を倒すVRゲーム</p>}/>
+          description={<p style={{fontSize:'1.8vw',fontFamily:'ヒラギノ角ゴ Pro'}}>概要：弾を使って恐竜を倒すVRゲーム</p>}/>
         <ProductContent id = {2} name={torokko} width='77%' contentTitle={<p style={{fontSize:'2.2vw',fontFamily:'ヒラギノ角ゴ Pro'}}>スクリーンゲーム<br></br><br></br>トロッコクイズ</p>}
-          description={<p style={{fontSize:'1.8vw',fontFamily:'ヒラギノ角ゴ Pro'}}>トロッコに乗って２択クイズを解こう</p>}/>
+          description={<p style={{fontSize:'1.8vw',fontFamily:'ヒラギノ角ゴ Pro'}}>概要：トロッコに乗って２択クイズを解こう</p>}/>
         <ProductContent id = {3} name={balloon} width='77%'  contentTitle={<p style={{fontSize:'2.2vw',fontFamily:'ヒラギノ角ゴ Pro'}}>スクリーンゲーム<br></br><br></br>風船パーセント</p>}
-                description={<p style={{fontSize:'1.8vw',fontFamily:'ヒラギノ角ゴ Pro'}}>世の中のパーセント（割合）を当てるクイズ</p>}/>
+                description={<p style={{fontSize:'1.8vw',fontFamily:'ヒラギノ角ゴ Pro'}}>概要：世の中のパーセント（割合）を当てるクイズ</p>}/>
       </div>
     )
   }
@@ -211,9 +224,9 @@ class ClickProduct extends React.Component {
   render(){
     const showFlag = this.state.showFlag;
     let contents = showFlag ? this.props.yearProduct : "";
-    if(this.props.on === "defaultoff"){
+    /*if(this.props.on === "defaultoff"){
       this.setState = {showFlag:false}
-    }
+    }*/
 
     return(
       <div>
@@ -228,7 +241,7 @@ class ClickProduct extends React.Component {
 const Product  = () => (
   <div style={{backgroundColor:'#454242',width:'100%',paddingBottom:'7.0vw'}}>
   <h1 style={{color:'white',fontSize:'3.0vw',textAlign:'center',backgroundColor:'#454242',margin:0,paddingTop:'10.0vw',paddingBottom:'4.0vw',fontFamily:'ヒラギノ角ゴ Pro'}}>Works</h1>
-  <div style={{backgroundColor:'white',width:'90%',height:'65.0vw',margin:'0 auto'}}>
+  <div style={{backgroundColor:'white',width:'90%',height:'65.0vw',margin:'0 auto',paddingTop:"2vw"}}>
     <div style={{width:'90%',margin:'0 auto',paddingTop:'4.0vw',display:'flex',flexWrap:'wrap',justifyContent:'center'}}>
      <ProductTopContent image={spaceshooterIcon} image_width='68%' title="SpaceShooter" />
      <ProductTopContent image={tax_officerIcon} image_width='68%' title="税官、家を買う" />
@@ -237,13 +250,11 @@ const Product  = () => (
      <ProductTopContent image={naviIcon} image_width='68%' title="新入生ナビ" />
      <ProductTopContent image={nameIcon} image_width='68%' title="音衣夢 name" />
 
-     
-
-         
     </div>  
   </div>
-  <div style={{textAlign:"center",paddingTop:"20vw"}}>
-  <Link to="/Product" style={HomeProductStyle}>See More</Link>  
+  <div style={{textAlign:"center",paddingTop:"3vw"}}>
+
+  <Link to="/Product" ><img src = {seeMore} alt ="seeMore" style ={{width:"30%"}}/></Link>  
   </div>
   </div>
 )
