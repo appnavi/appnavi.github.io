@@ -23,6 +23,7 @@ import naviIcon from './images/naviIcon.png';
 import worksback from './images/WorksBack.png';
 import seeMore from './images/SeeMore.png';
 import googlebudge from './images/google-play-badge.png';
+import MediaQuery from 'react-responsive';
 
 const properties = {
   duration: 10000,
@@ -39,7 +40,7 @@ const properties = {
 
 const Slideshow = () => {
     return (
-      <div className="slide-container" style={{height:"48vw",backgroundImage:`url(${worksback})`,backgroundPosition: "center" ,backgroundSize: "cover",
+      <div className="slide-container" style={{height:"50vw",paddingBottom:"-5.0vw",backgroundImage:`url(${worksback})`,backgroundPosition: "center" ,backgroundSize: "cover",
       backgroundRepeat: "no-repeat"}}>
         <Slide {...properties}>
           <div className="each-slide" style={{marginTop:"7.5vw"}}>
@@ -49,7 +50,7 @@ const Slideshow = () => {
           </div>
           <div className="each-slide"  style={{marginTop:"7.5vw"}}>
           <ProductContent id = {1} name={undvo}  width='65%' contentTitle={<p style={{fontSize:'2.2vw',fontFamily:'ヒラギノ角ゴ Pro'}}>UNDVO SOLTEX<br></br></p>}
-     description={<p style={{fontSize:'1.8vw',fontFamily:'ヒラギノ角ゴ Pro'}}>概要：無線コントローラとモバイルバッテリーでいつでもどこでもプレイできるポータブルかつ正統派な音ゲーです<br></br> (技術書名古屋の陣出展作品)</p>} dawnload ={<a style={{textDecoration:"none"}}
+     description={<p style={{fontSize:'1.8vw',fontFamily:'ヒラギノ角ゴ Pro'}}>概要：無線コントローラとモバイルバッテリーでいつでもどこでもプレイできる、ポータブルかつ正統派な音ゲーです<br></br> (技術書名古屋の陣出展作品)</p>} dawnload ={<a style={{textDecoration:"none"}}
         href="https://twitter.com/appGeneu_73/status/1207061911944060929?s=20" target="_blank" >詳細はこちらから！</a>} />
      
           </div>
@@ -72,26 +73,6 @@ const Slideshow = () => {
 }
 
 
-/*const HomeProductStyle = {
-  width: "0",
-  height: "0",
-  borderLeft: "10vw solid transparent",
-  borderRight: "10vw solid transparent",
-  borderTop: "8vw solid white",
-  backgroundColor:"#454242",
-  paddingBottom:"5vw",
-  verticalAlign: "middle"
-}*/
-
-/*const GotoWorkStyle = {
-
-  width: '30vw',
-  height: 0,
-  borderLeft: '30vw solid transparent',
-  borderRight: '30vw solid transparent',
-  borderTop: '15vw solid white',
-}*/
-
 
 
 const ProductContent =(props) =>({
@@ -108,10 +89,10 @@ render(){
         </div>
         <div style={{width:'60%',color:'black',alignSelf:'center',fontSize:'2.5vw'}}>
           <div style={{display:"flex"}}>
-          <p style={{color:"#454242",paddingTop:"0.45vw",width:"20%",fontSize:'2.0vw',fontFamily:'ヒラギノ角ゴ',paddingLeft:"10%",fontWeight:"bold"}}>作品名:</p>
+          <p style={{color:"#454242",paddingTop:"0.45vw",width:"20%",fontSize:'2.0vw',fontFamily:'ヒラギノ角ゴ',paddingLeft:"15%",fontWeight:"bold"}}>作品名:</p>
           <div style={{color:"#454242",width:"70%",fontSize:'2.0vw',textAlign:"left",fontFamily:'ヒラギノ角ゴ Pro',paddingRight:"10%",fontWeight:"bold"}}>{props.contentTitle}</div>
           </div>
-          <p style={{color:"#454242",paddingTop:"0.20vw",width:"70%",fontSize:'2.0vw',fontFamily:'ヒラギノ角ゴ',paddingLeft:"10%",marginTop:"0",fontWeight:"bold",lineHeight:"200%"}}>{props.description}</p>
+          <p style={{color:"#454242",paddingTop:"0.20vw",width:"70%",fontSize:'2.0vw',fontFamily:'ヒラギノ角ゴ',paddingLeft:"15%",marginTop:"0",fontWeight:"bold",lineHeight:"200%"}}>{props.description}</p>
          
           <p style={{fontSize:'2.0vw',fontFamily:'ヒラギノ角ゴ Pro',marginLeft:"25%"}}>{props.dawnload}</p>
         </div>
@@ -149,7 +130,7 @@ const Product2019 = (props)=> ({
      <ProductContent id = {2} name={rizufuru}  width='95%' contentTitle={<p style={{fontSize:'2.2vw',fontFamily:'ヒラギノ角ゴ Pro'}}>りずふる<br></br></p>}
      description={<p style={{fontSize:'1.8vw',fontFamily:'ヒラギノ角ゴ Pro'}}>概要：音楽のリズムに合わせて落ちてくる<br></br>果物を収穫するゲームです。<br></br>(2019年度白鷺祭展示)</p>}/> 
      <ProductContent id = {1} name={undvo}  width='65%' contentTitle={<p style={{fontSize:'2.2vw',fontFamily:'ヒラギノ角ゴ Pro'}}>UNDVO SOLTEX<br></br></p>}
-     description={<p style={{fontSize:'1.8vw',fontFamily:'ヒラギノ角ゴ Pro'}}>概要：無線コントローラとモバイルバッテリーでいつでもどこでもプレイできるポータブルかつ正統派な音ゲーです (技術書名古屋の陣出展作品)</p>} dawnload ={<a style={{textDecoration:"none"}}
+     description={<p style={{fontSize:'1.8vw',fontFamily:'ヒラギノ角ゴ Pro'}}>概要：無線コントローラとモバイルバッテリーでいつでもどこでもプレイできる、ポータブルかつ正統派な音ゲーです <br></br>(技術書名古屋の陣出展作品)</p>} dawnload ={<a style={{textDecoration:"none"}}
         href="https://twitter.com/appGeneu_73/status/1207061911944060929?s=20" target="_blank" >詳細はこちらから！</a>} />
       </div>
       
@@ -224,9 +205,7 @@ class ClickProduct extends React.Component {
   render(){
     const showFlag = this.state.showFlag;
     let contents = showFlag ? this.props.yearProduct : "";
-    /*if(this.props.on === "defaultoff"){
-      this.setState = {showFlag:false}
-    }*/
+    
 
     return(
       <div>
@@ -260,15 +239,34 @@ const Product  = () => (
 )
 const ProductPage =()=> (
   <div>
+     
     <div style={{backgroundColor:'black', width:'100%',height:'12.0vw'}}>
   </div>
   <Slideshow/>
   <div style={{backgroundColor:'#DEDEDE',width:'100%'}}>
-    <h1 style={{color:'black',fontSize:'3.0vw',textAlign:'center',backgroundColor:'#DEDEDE',margin:0,paddingTop:'5.0vw',paddingBottom:'4.0vw',fontFamily:'ヒラギノ角ゴ Pro'}}>Works</h1>
-<ClickProduct  yearProduct={<Product2019/>} year="2019年度"/>
+  <h2 style={{color:'black',fontSize:"3.0vw",textAlign:'center',backgroundColor:'#DEDEDE',margin:0,paddingTop:'10.0vw',paddingBottom:"3.0vw",fontFamily:'ヒラギノ角ゴ Pro'}}>Works</h2>
+{//横幅が小さい時の画面
+}
+  <MediaQuery query="(max-width: 767px)">
+ <ClickProduct  yearProduct={<Product2019/>} year="2019年度"/>
+<ClickProduct  yearProduct={<Product2018/>} year="2018年度"/>
+<ClickProduct  yearProduct={<Product2017/>} year="~2017年度"/>       
+</MediaQuery>
+{//横幅が大きい時の画面
+}
+<MediaQuery query="(min-width: 768px)">
+  <div style={{display:"flex"}}>
+  <div style={{width:"80%"}}>
+  <ClickProduct  yearProduct={<Product2019/>} year="2019年度"/>
 <ClickProduct on="defaultoff" yearProduct={<Product2018/>} year="2018年度"/>
 <ClickProduct on="defaultoff" yearProduct={<Product2017/>} year="~2017年度"/>
-
+  </div>
+  <div style={{width:"20%"}}>
+    <h2>アーカイブ</h2>
+  </div>
+  </div>
+  </MediaQuery>
+    
     
     <FooterMenu/>
   </div>

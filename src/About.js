@@ -40,6 +40,9 @@ const About  = (props) => ({
 }
 })
 
+const AboutPageDescription = {
+  lineHeight:'200%',fontFamily:'ヒラギノ角ゴ Pro',fontSize:'1.8vw',color:"#454242",fontWeight:"bold"
+}
 About.defaultProps = {
   padding:'5.0vw',
 };
@@ -52,12 +55,12 @@ const AboutPage = () => (
       <h2 style={{fontSize:'3.0vw',margin:'0',textAlign:'center',paddingTop:'5.0vw',fontFamily:'ヒラギノ角ゴ Pro'}}>About us</h2>
       <div style={{backgroundColor:'white',width:'80%',paddingBottom:'1.5vw',margin:'0 auto'}}>
       <p style={{marginBottom:'5vw'}}></p>
-  <p style={{lineHeight:'200%',color:'black',fontFamily:'ヒラギノ角ゴ Pro',fontSize:'1.8vw'}}> 2016年　部員６人でアプリNaviを創設 </p>
-  <p style={{lineHeight:'200%',color:'black',fontFamily:'ヒラギノ角ゴ Pro',fontSize:'1.8vw'}}>2019年度の部員は約25名　アットホームな雰囲気で活動しています。</p><br></br>
-  <p style={{lineHeight:'200%',color:'black',fontFamily:'ヒラギノ角ゴ Pro',fontSize:'2.0vw'}}>活動内容</p>
-  <p style={{lineHeight:'200%',color:'black',fontFamily:'ヒラギノ角ゴ Pro',fontSize:'1.8vw'}}>大阪府立大学(OPU)でアプリ開発をする部活です。</p>
-  <p style={{lineHeight:'200%',color:'black',fontFamily:'ヒラギノ角ゴ Pro',fontSize:'1.8vw'}}>アプリ開発だけでなくWebデザインやゲーム、VRを制作中</p>
-  <p style={{lineHeight:'200%',color:'black',fontFamily:'ヒラギノ角ゴ Pro',fontSize:'1.8vw'}}>部内で大会を主催して技術力を競い合ったり、勉強会を行っています</p>
+  <p style={AboutPageDescription}> 2016年　部員６人でアプリNaviを創設 </p>
+  <p style={AboutPageDescription}>2019年度の部員は約25名　アットホームな雰囲気で活動しています。</p><br></br>
+  <p style={AboutPageDescription}>活動内容</p>
+  <p style={AboutPageDescription}>大阪府立大学(OPU)でアプリ開発をする部活です。</p>
+  <p style={AboutPageDescription}>アプリ開発だけでなくWebデザインやゲーム、VRを制作中</p>
+  <p style={AboutPageDescription}>部内で大会を主催して技術力を競い合ったり、勉強会を行っています</p>
   <p style={{marginBottom:'9vw'}}></p>
     </div>
     </div>

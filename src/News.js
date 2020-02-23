@@ -139,7 +139,7 @@ const NewsPage = () => (
 
             <div style={{width:'44%',backgroundColor:'white'}}>
               <div style={{width:'80%',hight:"20.0vw",textAlign:"center",margin:'0 auto'}}>
-                  <h3>アーカイブ</h3>
+                  <h3>アーカイブ<br></br>(制作中)</h3>
                   <p>2019</p>
                   <p>2018</p>
                   <p>2017</p>
