@@ -6,7 +6,7 @@ import Home from './Home.js';
 import {AboutPage} from './About.js';
 import {ProductPage} from './Product.js';
 import {NewsPage} from './News.js';
-import {ContactPage} from './Contact.js';
+import {ContactPage,LineContact} from './Contact.js';
 import HeaderMenu from './components/header.js';
 
 
@@ -25,6 +25,7 @@ const AppRoute =({location}) => {
         <Route path='/Product' component={ProductPage}/>
         <Route path='/News' component={NewsPage}/>
         <Route path='/Contact' component={ContactPage}/>
+        <Route path='/Line' component={LineContact}/>
         </Switch>
             </div>
             <HeaderMenu/>

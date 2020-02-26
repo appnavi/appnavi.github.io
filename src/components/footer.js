@@ -57,7 +57,8 @@ const FooterMenu = () => (
       </div>
         <div>
           <p style={{fontSize:'1.0vw',position:'relative',bottom:'1.2vw',left:'10.5vw',fontFamily:'ヒラギノ角ゴ Pro'}}>LINE</p>
-          <a className="fab fa-line" href="#" target="_black" style={{color:'white',fontSize:'3.8vw',textDecoration:'none',position:'relative',bottom:'1.7vw',left:'10vw'}}></a>
+          <Link to="/Line" className="fab fa-line" target="_black"  style={{color:'white',fontSize:'3.8vw',textDecoration:'none',position:'relative',bottom:'1.7vw',left:'10vw'}}></Link>  
+   
         </div>
       </div>
   </div>

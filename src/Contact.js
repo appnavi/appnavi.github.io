@@ -1,7 +1,9 @@
 import React from 'react';
 import contact from './images/contact.png';
 import FooterMenu from './components/footer.js';
+import {Link} from 'react-router-dom';
 import MediaQuery from 'react-responsive';
+import appnaviLine from './images/LineAppnavi.png';
 
 const Contact  = (props) => (
 <div style={{backgroundColor:props.backcolor}}>
@@ -23,8 +25,8 @@ const Contact  = (props) => (
           <a href="https://twitter.com/opuappnavi" className="fab fa-twitter"  target="_black"style={{color:props.color,fontSize:'4.0vw',textDecoration:'none',position:'relative',bottom:'0vw',left:'5vw'}}></a>
       </div>
       <div>
-        <p style={{position:'relative',bottom:'0vw',right:'4vw',fontFamily:'ヒラギノ角ゴ Pro',color:props.color}}>LINE</p>
-          <a className="fab fa-line" href="#" target="_black" style={{color:props.color,fontSize:'4.5vw',textDecoration:'none',position:'relative',bottom:'0.5vw',right:'4vw'}}></a>
+        <p style={{position:'relative',bottom:'0vw',right:'4vw',fontFamily:'ヒラギノ角ゴ Pro',color:props.color}}>LINE</p> 
+  <Link to="/Line" className="fab fa-line" target="_black" style={{color:props.color,fontSize:'4.5vw',textDecoration:'none',position:'relative',bottom:'0.5vw',right:'4vw'}}></Link>  
         </div>
   </div>
   </div>
@@ -47,4 +49,15 @@ const ContactPage =()=> (
   </div>
 )
 
-export {Contact,ContactPage};
+
+const LineContact =()=>(
+  <div>
+    <div style={{backgroundColor:'black', width:'100%',height:'12.0vw'}}></div>
+    <div style={{width:"80%",textAlign:"center",margin:"0 auto"}}> 
+    <p style={{fontSize:"3.0vw",fontWeight:"bold",marginTop:"6.0vw"}}>アプリNaviの新歓LINEアカウントです！<br></br>ぜひ登録お願いします！</p>
+    <img src={appnaviLine} alt="アプリナビライン" style= {{width:"100%",margin:'0 auto'}}/>
+    </div>
+    <FooterMenu/>
+  </div>
+)
+export {Contact,ContactPage,LineContact};
