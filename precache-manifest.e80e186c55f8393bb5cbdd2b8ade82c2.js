@@ -4,8 +4,8 @@ self.__precacheManifest = [
     "url": "/static/media/newnavi.bb4ea68e.jpg"
   },
   {
-    "revision": "2fd78f55d6711a8c7068",
-    "url": "/static/css/main.96c6af17.chunk.css"
+    "revision": "e72fce29fb34f8c780c0",
+    "url": "/static/css/main.b68c247b.chunk.css"
   },
   {
     "revision": "42ac5946195a7306e2a5",
@@ -16,8 +16,8 @@ self.__precacheManifest = [
     "url": "/static/media/apphomepage.b261d7ad.jpg"
   },
   {
-    "revision": "6044ed4b604af96593b3",
-    "url": "/static/js/2.4871253e.chunk.js"
+    "revision": "2e70a49fa1f74682ce70",
+    "url": "/static/js/2.2d2c64e4.chunk.js"
   },
   {
     "revision": "6a2832abfb5458fe896556375f82c507",
@@ -80,8 +80,8 @@ self.__precacheManifest = [
     "url": "/static/media/map.c0bfc855.jpg"
   },
   {
-    "revision": "2fd78f55d6711a8c7068",
-    "url": "/static/js/main.8d339c31.chunk.js"
+    "revision": "e72fce29fb34f8c780c0",
+    "url": "/static/js/main.4cf485b2.chunk.js"
   },
   {
     "revision": "c33bceb60c1e492f01f1313c56e450ca",
@@ -152,11 +152,11 @@ self.__precacheManifest = [
     "url": "/static/media/appnaviloading.fd25c389.png"
   },
   {
-    "revision": "6044ed4b604af96593b3",
+    "revision": "2e70a49fa1f74682ce70",
     "url": "/static/css/2.06e5508e.chunk.css"
   },
   {
-    "revision": "d66fb7bab6801fad535630eeb65c4f24",
+    "revision": "1f0b1fac173fd1287da53f0ffef947a5",
     "url": "/index.html"
   }
 ];
