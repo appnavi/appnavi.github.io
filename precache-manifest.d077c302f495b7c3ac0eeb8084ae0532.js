@@ -4,8 +4,8 @@ self.__precacheManifest = [
     "url": "/static/media/newnavi.bb4ea68e.jpg"
   },
   {
-    "revision": "29d3016b7b0c2c8e2454",
-    "url": "/static/css/main.b68c247b.chunk.css"
+    "revision": "513f35b88b93624b124a",
+    "url": "/static/css/main.7a759691.chunk.css"
   },
   {
     "revision": "42ac5946195a7306e2a5",
@@ -80,8 +80,8 @@ self.__precacheManifest = [
     "url": "/static/media/map.c0bfc855.jpg"
   },
   {
-    "revision": "29d3016b7b0c2c8e2454",
-    "url": "/static/js/main.e22839b8.chunk.js"
+    "revision": "513f35b88b93624b124a",
+    "url": "/static/js/main.e4895016.chunk.js"
   },
   {
     "revision": "c33bceb60c1e492f01f1313c56e450ca",
@@ -156,7 +156,7 @@ self.__precacheManifest = [
     "url": "/static/css/2.06e5508e.chunk.css"
   },
   {
-    "revision": "0329644d2309fc92526087114d7934e9",
+    "revision": "47b432d66674ee7b61fbbe42aa532908",
     "url": "/index.html"
   }
 ];
