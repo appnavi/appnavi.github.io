@@ -6,7 +6,6 @@ import name from './images/name.jpg';
 import nameIcon from './images/nameIcon.png';
 import music from './images/musicTop.jpg';
 import vr from './images/VRSenden.jpg';
-import appnavi from './images/apphomepage.jpg';
 import torokko from './images/トロッコ.jpg';
 import balloon from './images/風船.jpg';
 import FooterMenu from './components/footer.js';
