@@ -68,7 +68,7 @@ const AboutPage = () => (
     <div style={{backgroundColor:"#DEDEDE",width:"100%"}}>
   <div style={{width:"80%",height:"70.0vw",margin:"0 auto",paddingTop:"5vw"}}>
     <div style={{textAlign:"center",margin:"0 auto"}}>
-      <p style={{fontSize:"2vw",paddingBottom:"1.5vw",fontFamily:"源ノ角ゴシック JP",fontWeight:"bold"}}>活動場所　A-5棟<br></br>週１回(活動曜日は学期によって異なります)</p>
+      <p style={{fontSize:"2vw",paddingBottom:"1.5vw",fontFamily:"源ノ角ゴシック JP,ヒラギノ角ゴ Pro",fontWeight:"bold"}}>活動場所　A-5棟<br></br>週１回(活動曜日は学期によって異なります)</p>
       <img src = {map} alt ="map" style={{width:"80%"}}></img>
     {//<GoogleMaps latitude="34.5457708" longitude= "135.505894" />
     }
