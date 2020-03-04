@@ -22,7 +22,7 @@ const AppRoute =({location}) => {
           <Switch location={location}>
           <Route exact path='/' component={Home}/>
         <Route path='/About' component={AboutPage}/>
-        <Route path='/Product' component={ProductPage}/>
+        <Route path='/Works' component={ProductPage}/>
         <Route path='/News' component={NewsPage}/>
         <Route path='/Contact' component={ContactPage}/>
         <Route path='/Line' component={LineContact}/>

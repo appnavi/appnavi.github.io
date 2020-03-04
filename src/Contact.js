@@ -9,12 +9,12 @@ const Contact  = (props) => (
 <div style={{backgroundColor:props.backcolor}}>
   <div style={{width:'80%',margin:'0 auto',paddingBottom:'2.0vw'}}>
   <p style={{color:props.color ,textAlign:'center', paddingTop:props.padding,paddingBottom:'1.5vw' ,margin:0,fontSize:'3.0vw',fontFamily:'源ノ角ゴシック JP',fontWeight:"bold"}}>Contact us</p>
-    <div style={{width:'100%',textAlign:'center',paddingTop:'5.0vw',marginBottom:"2.0vw"}}>
+    <div style={{width:'100%',textAlign:'center',paddingTop:props.paddingtop,marginBottom:"2.0vw"}}>
     <img src={contact} alt="contact" style= {{width:props.width,margin:'0 auto'}}/>
     </div>
 <div style={{display:'flex',flexDirection:'column',justifyContent:'space-around'}}>
     <div style={{color:'black' ,width:'80%',margin:'0 auto',textAlign:'center',fontSize:'1.8vw'}}>
-      <p style={{fontFamily:'ヒラギノ角ゴ Pro,sans-serif',fontWeight:"bold",color:props.color}}>
+      <p style={{fontFamily:'ヒラギノ角ゴ Pro',fontWeight:"bold",color:props.color}}>
         お仕事依頼、質問、制作についてはこちらまで</p>
       <p style={{fontFamily:'ヒラギノ角ゴ Pro',fontWeight:"bold",color:props.color}}>Conatact us : contact@opuappnavi.com</p>
     <div style={{display:'flex',justifyContent:'space-around',width:'60%',margin:'0 auto'}}>
@@ -40,12 +40,15 @@ const ContactPage =()=> (
   <div>
     <div style={{backgroundColor:'black', width:'100%',height:'12.0vw'}}>
     </div>
-    <img src={contact} alt="contact" style= {{width:"100%",height:"55vw" ,margin:'0 auto'}}/>
-    <Contact padding='5.0vw' color="black" backcolor="white" width="0%"/>
+    <div style={{backgroundColor:"white"}}>
+    <img src={contact} alt="contact" style= {{width:"100%",height:"58vw" ,margin:'0 auto'}}/>
+    <Contact padding='5.0vw' color="black" backcolor="white" width="0%" paddingtop="2.0vw"/>
   <MediaQuery query="(max-width:473px)">
   <div style={{backgroundColor:'white',width:'100%',height:'26vh'}}></div>
 </MediaQuery>
-  <FooterMenu/>
+
+    </div>
+    <FooterMenu/>
   </div>
 )
 
@@ -53,11 +56,13 @@ const ContactPage =()=> (
 const LineContact =()=>(
   <div>
     <div style={{backgroundColor:'black', width:'100%',height:'12.0vw'}}></div>
+    <div style={{backgroundColor:"white"}}>
     <div style={{width:"80%",textAlign:"center",margin:"0 auto"}}> 
-    <p style={{fontSize:"3.0vw",fontWeight:"bold",marginTop:"6.0vw"}}>アプリNaviの新歓LINEアカウントです！<br></br>ぜひ登録お願いします！</p>
+    <p style={{fontSize:"3.0vw",fontWeight:"bold",paddingTop:"6.0vw"}}>アプリNaviの新歓LINEアカウントです！<br></br>ぜひ登録お願いします！</p>
     <img src={appnaviLine} alt="アプリナビライン" style= {{width:"100%",margin:'0 auto'}}/>
     </div>
-    <FooterMenu/>
+    </div>
+     <FooterMenu/>
   </div>
 )
 export {Contact,ContactPage,LineContact};

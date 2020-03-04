@@ -89,7 +89,7 @@ render(){
         </div>
         <div style={{width:'60%',color:'black',alignSelf:'center',fontSize:'2.5vw'}}>
           <div style={{display:"flex"}}>
-          <p style={{color:"#454242",paddingTop:"0.45vw",width:"20%",fontSize:'2.0vw',fontFamily:'ヒラギノ角ゴ',paddingLeft:"15%",fontWeight:"bold"}}>作品名:</p>
+          <p style={{color:"#454242",paddingTop:"0.45vw",width:"20%",fontSize:'2.0vw',fontFamily:'ヒラギノ角ゴ Pro',paddingLeft:"15%",fontWeight:"bold"}}>作品名:</p>
           <div style={{color:"#454242",width:"70%",fontSize:'2.0vw',textAlign:"left",fontFamily:'ヒラギノ角ゴ Pro',paddingRight:"10%",fontWeight:"bold"}}>{props.contentTitle}</div>
           </div>
           <p style={{color:"#454242",paddingTop:"0.20vw",width:"70%",fontSize:'2.0vw',fontFamily:'ヒラギノ角ゴ',paddingLeft:"15%",marginTop:"0",fontWeight:"bold",lineHeight:"200%"}}>{props.description}</p>
@@ -106,9 +106,12 @@ const ProductTopContent = (props) =>({
   render(){
 
     return(
-      <div style={{width:'33%',textAlign:'center',alignSelf:'center' ,height:"30vw"}}>
-      <img src={props.image} alt={props.image} style={{width:props.image_width}}/>
-      <p style={{color:"#454242",fontSize:"2.5vw",fontFamily:"源ノ角ゴシック JP"}}>{props.title}</p>
+      <div className="WorksTop"style={{width:'33%',textAlign:'center',alignSelf:'center' ,height:"30vw"}}>
+        <Link to="/Works" style={{textDecoration:"none"}}>      
+        <img src={props.image} alt={props.image} style={{width:props.image_width}}/>
+      <p style={{color:"#454242",fontSize:"2.5vw",fontFamily:"源ノ角ゴシック JP,ヒラギノ角ゴ Pro"}}>{props.title}</p>
+      </Link>
+
     </div>
      
     )
@@ -217,7 +220,7 @@ class ClickProduct extends React.Component {
   }
 }
 
-const Product  = () => (
+const Works  = () => (
   <div style={{backgroundColor:'#454242',width:'100%',paddingBottom:'7.0vw'}}>
   <h1 style={{color:'white',fontSize:'3.0vw',textAlign:'center',backgroundColor:'#454242',margin:0,paddingTop:'10.0vw',paddingBottom:'4.0vw',fontFamily:'ヒラギノ角ゴ Pro'}}>Works</h1>
   <div style={{backgroundColor:'white',width:'90%',height:'65.0vw',margin:'0 auto',paddingTop:"2vw"}}>
@@ -233,7 +236,7 @@ const Product  = () => (
   </div>
   <div style={{textAlign:"center",paddingTop:"3vw"}}>
 
-  <Link to="/Product" ><img src = {seeMore} alt ="seeMore" style ={{width:"30%"}}/></Link>  
+  <Link to="/Works" ><img src = {seeMore} alt ="seeMore" style ={{width:"30%"}}/></Link>  
   </div>
   </div>
 )
@@ -263,6 +266,7 @@ const ProductPage =()=> (
   </div>
   <div style={{width:"20%"}}>
     <h2>アーカイブ</h2>
+    <p>制作中</p>
   </div>
   </div>
   </MediaQuery>
@@ -272,4 +276,4 @@ const ProductPage =()=> (
   </div>
 </div>
 )
-export  {Product,ProductPage};
+export  {Works,ProductPage,Product2019};

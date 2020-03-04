@@ -2,7 +2,6 @@ import React from 'react';
 import FooterMenu from './components/footer.js';
 import {Link} from 'react-router-dom';
 import aboutTop from './images/AboutTop.jpg';
-import GoogleMaps from './components/googleMap.js';
 import buttonArrow from './images/bottomArrow.png';
 import map from './images/map.jpg';
 
@@ -15,17 +14,17 @@ const textStyle = {
 const About  = (props) => ({
   render(){
     return(
-  <div style={{background:props.color,color:props.fontcolor}}>
+  <div style={{backgroundColor:props.color,color:props.fontcolor}}>
 <div align="center" style={{paddingTop:props.padding,paddingBottom:'2.0vw',width:'90%',margin:'0 auto'}}>
-<h3 style={{fontSize:'3.0vw',color:'black',fontFamily:'ヒラギノ角ゴ Pro'}}>About us</h3>
+<h3 style={{fontSize:'3.0vw',color:'#454242',fontFamily:'ヒラギノ角ゴ Pro'}}>About us</h3>
 <div style={textStyle}>
 <p style={{marginBottom:'5vw'}}></p>
-<p style={{lineHeight:'200%',color:'black',fontFamily:'ヒラギノ角ゴ Pro',fontSize:'1.8vw'}}> 大阪府立大学(OPU)でアプリ開発をする部活です </p>
-<p style={{lineHeight:'200%',color:'black',fontFamily:'ヒラギノ角ゴ Pro',fontSize:'1.8vw'}}>アプリ開発だけでなくWebデザインやゲーム、VRを制作中</p>
-<p style={{lineHeight:'200%',color:'black',fontFamily:'ヒラギノ角ゴ Pro',fontSize:'1.8vw'}}>部内で大会を主催して技術力を競い合ったり、勉強会を行っています</p>
-<p style={{lineHeight:'200%',color:'black',fontFamily:'ヒラギノ角ゴ Pro',fontSize:'1.8vw'}}>コンクールへの出場、受賞経験あり</p>
-<p style={{lineHeight:'200%',color:'black',fontFamily:'ヒラギノ角ゴ Pro',fontSize:'1.8vw'}}>未経験者、女子部員も大募集中（女子部員も在籍）</p>
-<p style={{lineHeight:'200%',color:'black',fontFamily:'ヒラギノ角ゴ Pro',fontSize:'1.8vw'}}>新着情報はTwitter,LINEで更新中</p>
+<p style={{lineHeight:'200%',color:'#454242',fontFamily:'ヒラギノ角ゴ Pro',fontSize:'2.0vw',fontWeight:"bold"}}> 大阪府立大学(OPU)でアプリ開発をする部活です </p>
+<p style={{lineHeight:'200%',color:'#454242',fontFamily:'ヒラギノ角ゴ Pro',fontSize:'2.0vw',fontWeight:"bold"}}>アプリ開発だけでなくWebデザインやゲーム、VRを制作中</p>
+<p style={{lineHeight:'200%',color:'#454242',fontFamily:'ヒラギノ角ゴ Pro',fontSize:'2.0vw',fontWeight:"bold"}}>部内で大会を主催して技術力を競い合ったり、勉強会を行っています</p>
+<p style={{lineHeight:'200%',color:'#454242',fontFamily:'ヒラギノ角ゴ Pro',fontSize:'2.0vw',fontWeight:"bold"}}>コンクールへの出場、受賞経験あり</p>
+<p style={{lineHeight:'200%',color:'#454242',fontFamily:'ヒラギノ角ゴ Pro',fontSize:'2.0vw',fontWeight:"bold"}}>未経験者、女子部員も大募集中（女子部員も在籍）</p>
+<p style={{lineHeight:'200%',color:'#454242',fontFamily:'ヒラギノ角ゴ Pro',fontSize:'2.0vw',fontWeight:"bold"}}>新着情報はTwitter,LINEで更新中</p>
 <p style={{marginBottom:'5vw'}}></p>
 
 <div>
@@ -41,7 +40,7 @@ const About  = (props) => ({
 })
 
 const AboutPageDescription = {
-  lineHeight:'200%',fontFamily:'ヒラギノ角ゴ Pro',fontSize:'1.8vw',color:"#454242",fontWeight:"bold"
+  lineHeight:'240%',fontFamily:'ヒラギノ角ゴ Pro',fontSize:'1.8vw',color:"#454242",fontWeight:"bold"
 }
 About.defaultProps = {
   padding:'5.0vw',
@@ -50,10 +49,12 @@ const AboutPage = () => (
   <div>
     <div style={{backgroundColor:'black', width:'100%',height:'12.0vw'}}>
     </div>
-<img src = {aboutTop} alt ="aboutTop" style ={{width:'100%'}}/>
+    <div style={{backgroundColor:"white"}}>
+    <img src = {aboutTop} alt ="aboutTop" style ={{width:'100%'}}/> 
+    </div>
     <div style={{backgroundColor:'white',width:'100%',paddingBottom:'3.0vw'}}>
       <h2 style={{fontSize:'3.0vw',margin:'0',textAlign:'center',paddingTop:'5.0vw',fontFamily:'ヒラギノ角ゴ Pro'}}>About us</h2>
-      <div style={{backgroundColor:'white',width:'80%',paddingBottom:'1.5vw',margin:'0 auto'}}>
+      <div style={{backgroundColor:'white',width:'70%',paddingBottom:'1.5vw',margin:'0 auto'}}>
       <p style={{marginBottom:'5vw'}}></p>
   <p style={AboutPageDescription}> 2016年　部員６人でアプリNaviを創設 </p>
   <p style={AboutPageDescription}>2019年度の部員は約25名　アットホームな雰囲気で活動しています。</p><br></br>

@@ -51,7 +51,7 @@ const NewsButtonStyle ={
 }
 
 const News = () => (
-  <div style={{width:'100%',height:'70.0vw'}}>
+  <div style={{backgroundColor:"white",width:'100%',height:'70.0vw'}}>
     <div style={{width:'80%',height:'80%',margin:'0 auto'}}>
       <div style={{position:'relative'}}>
       <div style={{textAlign:'center'}}>
@@ -79,7 +79,9 @@ const NewsPage = () => (
       <div>
       <div style={{backgroundColor:'black', width:'100%',height:'12.0vw'}}>
       </div>
+      <div style={{backgroundColor:"white"}}>
       <img src = {newsTop} alt ="newstop" style ={{width:'100%'}}/>
+      </div>
 
       <div style={{backgroundColor:'white',height:'180.0vw'}}>
       <h1 style={{color:'black',fontSize:'3.0vw',textAlign:'center',margin:0,paddingTop:'5.0vw',paddingBottom:'4.0vw',fontFamily:'ヒラギノ角ゴ Pro'}}>News</h1>
@@ -161,7 +163,9 @@ const NewsPage = () => (
       <div>
       <div style={{backgroundColor:'black', width:'100%',height:'12.0vw'}}>
       </div>
+      <div style={{backgroundColor:"white"}}>
       <img src = {newsTop} alt ="newstop" style ={{width:'100%'}}/>
+      </div>
       <div style={{backgroundColor:'white',height:'150.0vw'}}>
       <h1 style={{color:'black',fontSize:'3.0vw',textAlign:'center',backgroundColor:'white',margin:0,paddingTop:'5.0vw',paddingBottom:'4.0vw',fontFamily:'ヒラギノ角ゴ Pro'}}>News</h1>
       <div style={{width:'90%',height:'100vw',margin:'0 auto'}}>
@@ -175,9 +179,9 @@ const NewsPage = () => (
         </div>
       </div>
 
-      <div style={{width:'100%',fontSize:'1.8vw',paddingLeft:'3.0vw',fontFamily:'ヒラギノ角ゴ Pro'}}>
-        <div style={{fontFamily:'ヒラギノ角ゴ Pro'}}>
-          <p >・2018/8 VTuberハッカソン全国ツアー2018大阪大会　大阪駆動開発賞　受賞</p>
+      <div style={{backgroundColor:"white",width:'100%',fontSize:'1.8vw',paddingLeft:'3.0vw',fontFamily:'ヒラギノ角ゴ Pro',paddingBottom:"5.0vw"}}>
+        <div style={{fontFamily:'ヒラギノ角ゴ Pro',fontSize:"2.5vw"}}>
+          <p style={{marginTop:"0",paddingTop:"3.0vw"}}>・2018/8 VTuberハッカソン全国ツアー2018大阪大会　大阪駆動開発賞　受賞</p>
           <p> アプリナビのメンバーがチームの一員として参加させていただきました！</p>
           <p>作品名：「キレッキレ on Ice」チーム</p>
           <p>詳細はこちら↓</p>
@@ -205,7 +209,7 @@ const NewsPage = () => (
             }
           }}</MediaQuery>
           </div>
-        <div style={{paddingTop:'5.0vw',fontFamily:'ヒラギノ角ゴ Pro'}}>
+        <div style={{paddingTop:'5.0vw',fontFamily:'ヒラギノ角ゴ Pro',fontSize:"2.5vw"}}>
         <p>・2018/11 VR 小野賢章さん</p>
         <p>アニメ声優同好会主催の小野賢章さんのトークイベントにVR作成として<br></br>
             参加させていただきました！</p>
