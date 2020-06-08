@@ -8,7 +8,7 @@ import appnaviLine from './images/LineAppnavi.png';
 const Contact  = (props) => (
 <div style={{backgroundColor:props.backcolor}}>
   <div style={{width:'80%',margin:'0 auto',paddingBottom:'2.0vw'}}>
-  <p style={{color:props.color ,textAlign:'center', paddingTop:props.padding,paddingBottom:'1.5vw' ,margin:0,fontSize:'3.0vw',fontFamily:'源ノ角ゴシック JP',fontWeight:"bold"}}>Contact us</p>
+  <p style={{color:props.color ,textAlign:'center', paddingTop:props.padding,paddingBottom:'1.5vw' ,margin:0,fontSize:'3.0vw',fontFamily:'源ノ角ゴシック JP,ヒラギノ角ゴ Pro',fontWeight:"bold"}}>Contact us</p>
     <div style={{width:'100%',textAlign:'center',paddingTop:props.paddingtop,marginBottom:"2.0vw"}}>
     <img src={contact} alt="contact" style= {{width:props.width,margin:'0 auto'}}/>
     </div>
