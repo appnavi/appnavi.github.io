@@ -1,4 +1,7 @@
+@import url("https://fonts.googleapis.com/css2?family=Kosugi+Maru&display=swap");
+
 body {
+  background-color: black;
   margin: 0;
   padding: 0;
 }
@@ -7,10 +10,28 @@ body {
   overflow: hidden;
 }
 
-.headerstyle2:hover{
+.headerstyle2:hover {
   background-color: #686868;
 }
 
-.ContactPage_contentWrapper__2aOFH > div:first-of-type {
-  width: 50%;
+.react-slideshow-container + div.indicators {
+  background-color: white;
+  margin-top: 0;
+  padding-top: 20px;
 }
+
+.react-slideshow-container + div.indicators > div {
+  width: 1vw;
+  height: 1vw;
+}
+
+.WorksTop:hover {
+  background-color: #f0f2f2;
+  opacity: "0.8";
+}
+
+/*.ContactPage_contentWrapper__2aOFH > div:first-of-type {
+  width: 50%;
+}*/
+
+/*style={{backgroundColor:"white",width:"50%" ,height:"30vw",position:"absolute",top:"15.0vw",right:"4.0vw" */

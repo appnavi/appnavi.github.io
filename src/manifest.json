@@ -1,0 +1,16 @@
+{
+    "name": "アプリNaviホームページ",
+    "short_name": "アプリNavi",
+    "background_color": "#fc980c",
+    "icons": [{
+        "src": "./images/logoPwa256.png",
+        "sizes": "256x256",
+        "type": "image/png"
+      },{
+        "src": "./images/logoPwa192.png",
+        "sizes": "192x192",
+        "type": "image/png"
+      }],
+    "start_url": "./?utm_source=homescreen",
+    "display": "standalone"
+  }

@@ -1,6 +1,6 @@
 import React from 'react';
 import {About} from './About.js';
-import {Product} from './Product.js';
+import {Works} from './Product.js';
 import {News} from './News.js';
 import {Contact} from './Contact.js';
 import FooterMenu from './components/footer.js';
@@ -23,8 +23,8 @@ import Slideshow from './components/slideshow.js';
 const Home = () => (
   <div>
     <Slideshow/>
-  <About/>
-  <Product/>
+  <About color="white"/>
+  <Works/>
   <News/>
   <Contact padding='9.0vw' color="white" backcolor="#454242" width="80%"/>
   <FooterMenu/>
