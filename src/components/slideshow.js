@@ -63,7 +63,7 @@ const Slideshow = () => {
             </p>
           </div>
         </div>
-        <div style={{ backgroundColor: "white" }} className="each-slide">
+        {/*<div style={{ backgroundColor: "white" }} className="each-slide">
           <div
             style={{
               maxWidth: "100%",
@@ -99,7 +99,7 @@ const Slideshow = () => {
               }}
             ></p>
           </div>
-        </div>
+            </div>*/}
 
         <div className="each-slide">
           <div
