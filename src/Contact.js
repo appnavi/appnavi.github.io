@@ -16,8 +16,9 @@ const Contact = (props) => (
           paddingBottom: "1.5vw",
           margin: 0,
           fontSize: "3.0vw",
-          fontFamily: "源ノ角ゴシック JP,ヒラギノ角ゴ Pro",
-          fontWeight: "bold",
+          fontFamily: "source-han-sans-japanese",
+          fontStyle: "normal",
+          fontWeight: "700",
         }}
       >
         Contact us
@@ -54,7 +55,7 @@ const Contact = (props) => (
         >
           <p
             style={{
-              fontFamily: "ヒラギノ角ゴ Pro",
+              fontFamily: "source-han-sans-japanese",
               fontWeight: "bold",
               color: props.color,
             }}
@@ -63,7 +64,7 @@ const Contact = (props) => (
           </p>
           <p
             style={{
-              fontFamily: "ヒラギノ角ゴ Pro",
+              fontFamily: "source-han-sans-japanese",
               fontWeight: "bold",
               color: props.color,
             }}
@@ -84,7 +85,7 @@ const Contact = (props) => (
                   position: "relative",
                   bottom: "0vw",
                   left: "5vw",
-                  fontFamily: "ヒラギノ角ゴ Pro",
+                  fontFamily: "source-han-sans-japanese",
                   color: props.color,
                 }}
               >
@@ -111,7 +112,7 @@ const Contact = (props) => (
                   position: "relative",
                   bottom: "0vw",
                   right: "4vw",
-                  fontFamily: "ヒラギノ角ゴ Pro",
+                  fontFamily: "source-han-sans-japanese",
                   color: props.color,
                 }}
               >

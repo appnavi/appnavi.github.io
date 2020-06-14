@@ -53,7 +53,7 @@ const Slideshow = () => {
               style={{
                 color: "white",
                 fontSize: "1.2vw",
-                fontFamily: "ヒラギノ角ゴ Pro",
+                fontFamily: "source-han-sans-japanese",
                 fontWeight: "bold",
                 position: "absolute",
                 top: "29.5vw",
@@ -91,6 +91,7 @@ const Slideshow = () => {
                 style={{
                   color: "#454242",
                   fontSize: "2.08vw",
+
                   fontFamily: "Kosugi Maru, sans-serif",
                   textAlign: "center",
                   marginTop: "7.5vw",
@@ -132,7 +133,7 @@ const Slideshow = () => {
                 color: "#454242",
                 fontSize: "2.1vw",
                 fontWeight: "bold",
-                fontFamily: "ヒラギノ角ゴシック",
+                fontFamily: "source-han-sans-japanese",
                 position: "absolute",
                 top: "22.0vw",
                 right: "9vw",
@@ -145,7 +146,7 @@ const Slideshow = () => {
               style={{
                 color: "#454242",
                 fontSize: "1.8vw",
-                fontFamily: "源ノ角ゴシック JP,ヒラギノ角ゴ Pro",
+                fontFamily: "source-han-sans-japanese,ヒラギノ角ゴ Pro",
                 fontWeight: "bold",
                 position: "absolute",
                 top: "28.0vw",

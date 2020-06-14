@@ -18,6 +18,7 @@ class HoverButton extends Component {
       borderBottom: "solid 0.3vw #627295",
       marginTop: "0vw",
       translate: "Translate(0.2vw)",
+      fontFamily: "Kosugi Maru, sans-serif",
     };
     //Stateにはスタイル用にオブジェクトを保持しておく
     this.state = {
@@ -39,6 +40,7 @@ class HoverButton extends Component {
       borderBottom: "solid 0.1vw #627295",
       marginTop: "0.2vw",
       top: "0.2vw",
+      fontFamily: "Kosugi Maru, sans-serif",
     };
 
     this.setState({ stylesHoverButton: slideBlogBtnHover });
@@ -57,6 +59,7 @@ class HoverButton extends Component {
       textDecoration: "none",
       borderBottom: "solid 0.3vw #627295",
       marginTop: "0vw",
+      fontFamily: "Kosugi Maru, sans-serif",
     };
 
     this.setState({ stylesHoverButton: slideBlogBtn });
