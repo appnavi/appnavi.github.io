@@ -26,7 +26,7 @@ const About = (props) => ({
             style={{
               fontSize: "3.0vw",
               color: "#454242",
-              fontFamily: "ヒラギノ角ゴ Pro",
+              fontFamily: "source-han-sans-japanese",
             }}
           >
             About us
@@ -39,7 +39,7 @@ const About = (props) => ({
                 color: "#454242",
                 fontFamily: "ヒラギノ角ゴ Pro",
                 fontSize: "2.0vw",
-                fontWeight: "bold",
+                fontWeight: "700",
               }}
             >
               {" "}
@@ -51,7 +51,7 @@ const About = (props) => ({
                 color: "#454242",
                 fontFamily: "ヒラギノ角ゴ Pro",
                 fontSize: "2.0vw",
-                fontWeight: "bold",
+                fontWeight: "700",
               }}
             >
               アプリ開発だけでなくWebデザインやゲーム、VRを制作中
@@ -62,7 +62,7 @@ const About = (props) => ({
                 color: "#454242",
                 fontFamily: "ヒラギノ角ゴ Pro",
                 fontSize: "2.0vw",
-                fontWeight: "bold",
+                fontWeight: "700",
               }}
             >
               部内で大会を主催して技術力を競い合ったり、勉強会を行っています
@@ -73,7 +73,7 @@ const About = (props) => ({
                 color: "#454242",
                 fontFamily: "ヒラギノ角ゴ Pro",
                 fontSize: "2.0vw",
-                fontWeight: "bold",
+                fontWeight: "700",
               }}
             >
               コンクールへの出場、受賞経験あり
@@ -84,7 +84,7 @@ const About = (props) => ({
                 color: "#454242",
                 fontFamily: "ヒラギノ角ゴ Pro",
                 fontSize: "2.0vw",
-                fontWeight: "bold",
+                fontWeight: "700",
               }}
             >
               未経験者、女子部員も大募集中（女子部員も在籍）
@@ -95,7 +95,7 @@ const About = (props) => ({
                 color: "#454242",
                 fontFamily: "ヒラギノ角ゴ Pro",
                 fontSize: "2.0vw",
-                fontWeight: "bold",
+                fontWeight: "700",
               }}
             >
               新着情報はTwitter,LINEで更新中
@@ -123,7 +123,7 @@ const AboutPageDescription = {
   fontFamily: "ヒラギノ角ゴ Pro",
   fontSize: "1.8vw",
   color: "#454242",
-  fontWeight: "bold",
+  fontWeight: "700",
 };
 About.defaultProps = {
   padding: "5.0vw",
@@ -149,7 +149,7 @@ const AboutPage = () => (
           margin: "0",
           textAlign: "center",
           paddingTop: "5.0vw",
-          fontFamily: "ヒラギノ角ゴ Pro",
+          fontFamily: "source-han-sans-japanese",
         }}
       >
         About us
@@ -195,8 +195,8 @@ const AboutPage = () => (
             style={{
               fontSize: "2vw",
               paddingBottom: "1.5vw",
-              fontFamily: "源ノ角ゴシック JP,ヒラギノ角ゴ Pro",
-              fontWeight: "bold",
+              fontFamily: "source-han-sans-japanese,ヒラギノ角ゴ Pro",
+              fontWeight: "700",
             }}
           >
             活動場所　A-5棟<br></br>週１回(活動曜日は学期によって異なります)

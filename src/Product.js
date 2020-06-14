@@ -59,12 +59,22 @@ const Slideshow = () => {
             name={blog}
             width="95%"
             contentTitle={
-              <p style={{ fontSize: "2.2vw", fontFamily: "ヒラギノ角ゴ Pro" }}>
+              <p
+                style={{
+                  fontSize: "2.2vw",
+                  fontFamily: "source-han-sans-japanese",
+                }}
+              >
                 アプリNaviブログ<br></br>
               </p>
             }
             description={
-              <p style={{ fontSize: "1.8vw", fontFamily: "ヒラギノ角ゴ Pro" }}>
+              <p
+                style={{
+                  fontSize: "1.8vw",
+                  fontFamily: "source-han-sans-japanese",
+                }}
+              >
                 概要：アプリNavi部員が作成した記事を公開しています。<br></br>
                 絶賛記事更新中！
                 <br></br>
@@ -84,13 +94,23 @@ const Slideshow = () => {
             name={virtualFes}
             width="95%"
             contentTitle={
-              <p style={{ fontSize: "2.2vw", fontFamily: "ヒラギノ角ゴ Pro" }}>
+              <p
+                style={{
+                  fontSize: "2.2vw",
+                  fontFamily: "source-han-sans-japanese",
+                }}
+              >
                 府大バーチャル学祭<br></br>
                 アプリNavi展示特設サイト<br></br>
               </p>
             }
             description={
-              <p style={{ fontSize: "1.8vw", fontFamily: "ヒラギノ角ゴ Pro" }}>
+              <p
+                style={{
+                  fontSize: "1.8vw",
+                  fontFamily: "source-han-sans-japanese",
+                }}
+              >
                 概要:オンラインで学祭を行なった際に、作品を展示するために作ったHPです。
                 <a
                   href="http://appnavi.html.xdomain.jp/index.html"
@@ -108,12 +128,22 @@ const Slideshow = () => {
             name={tax_officer}
             width="95%"
             contentTitle={
-              <p style={{ fontSize: "2.2vw", fontFamily: "ヒラギノ角ゴ Pro" }}>
+              <p
+                style={{
+                  fontSize: "2.2vw",
+                  fontFamily: "source-han-sans-japanese",
+                }}
+              >
                 税官、家を買う<br></br>
               </p>
             }
             description={
-              <p style={{ fontSize: "1.8vw", fontFamily: "ヒラギノ角ゴ Pro" }}>
+              <p
+                style={{
+                  fontSize: "1.8vw",
+                  fontFamily: "source-han-sans-japanese",
+                }}
+              >
                 概要:税官になり、増税して、反対してくる納税者を大砲で吹っ飛ばしながら、集めた税金で大きな家を買うミニゲームです。
               </p>
             }
@@ -137,12 +167,22 @@ const Slideshow = () => {
             name={undvo}
             width="65%"
             contentTitle={
-              <p style={{ fontSize: "2.2vw", fontFamily: "ヒラギノ角ゴ Pro" }}>
+              <p
+                style={{
+                  fontSize: "2.2vw",
+                  fontFamily: "source-han-sans-japanese",
+                }}
+              >
                 UNDVO SOLTEX<br></br>
               </p>
             }
             description={
-              <p style={{ fontSize: "1.8vw", fontFamily: "ヒラギノ角ゴ Pro" }}>
+              <p
+                style={{
+                  fontSize: "1.8vw",
+                  fontFamily: "source-han-sans-japanese",
+                }}
+              >
                 概要：無線コントローラとモバイルバッテリーでいつでもどこでもプレイできる、ポータブルかつ正統派な音ゲーです
                 <br></br> (技術書名古屋の陣出展作品)
               </p>
@@ -164,12 +204,22 @@ const Slideshow = () => {
             name={rizufuru}
             width="95%"
             contentTitle={
-              <p style={{ fontSize: "2.2vw", fontFamily: "ヒラギノ角ゴ Pro" }}>
+              <p
+                style={{
+                  fontSize: "2.2vw",
+                  fontFamily: "source-han-sans-japanese",
+                }}
+              >
                 りずふる<br></br>
               </p>
             }
             description={
-              <p style={{ fontSize: "1.8vw", fontFamily: "ヒラギノ角ゴ Pro" }}>
+              <p
+                style={{
+                  fontSize: "1.8vw",
+                  fontFamily: "source-han-sans-japanese",
+                }}
+              >
                 概要：音楽のリズムに合わせて落ちてくる<br></br>
                 果物を収穫するゲームです。<br></br>(2019年度白鷺祭展示)
               </p>
@@ -182,12 +232,22 @@ const Slideshow = () => {
             name={spaceshooter}
             width="95%"
             contentTitle={
-              <p style={{ fontSize: "2.2vw", fontFamily: "ヒラギノ角ゴ Pro" }}>
+              <p
+                style={{
+                  fontSize: "2.2vw",
+                  fontFamily: "source-han-sans-japanese",
+                }}
+              >
                 SpaceShooter<br></br>
               </p>
             }
             description={
-              <p style={{ fontSize: "1.8vw", fontFamily: "ヒラギノ角ゴ Pro" }}>
+              <p
+                style={{
+                  fontSize: "1.8vw",
+                  fontFamily: "source-han-sans-japanese",
+                }}
+              >
                 概要：Android Studioを用いて作成した、<br></br>
                 シンプルなSFシューティングゲームです。
                 <br></br>
@@ -249,7 +309,7 @@ const ProductContent = (props) => ({
                   paddingTop: "0.45vw",
                   width: "20%",
                   fontSize: "2.0vw",
-                  fontFamily: "ヒラギノ角ゴ Pro",
+                  fontFamily: "",
                   paddingLeft: "15%",
                   fontWeight: "bold",
                 }}
@@ -262,7 +322,7 @@ const ProductContent = (props) => ({
                   width: "70%",
                   fontSize: "2.0vw",
                   textAlign: "left",
-                  fontFamily: "ヒラギノ角ゴ Pro",
+                  fontFamily: "source-han-sans-japanese",
                   paddingRight: "10%",
                   fontWeight: "bold",
                 }}
@@ -276,7 +336,7 @@ const ProductContent = (props) => ({
                 paddingTop: "0.20vw",
                 width: "70%",
                 fontSize: "2.0vw",
-                fontFamily: "ヒラギノ角ゴ",
+                fontFamily: "source-han-sans-japanese",
                 paddingLeft: "15%",
                 marginTop: "0",
                 fontWeight: "bold",
@@ -289,7 +349,7 @@ const ProductContent = (props) => ({
             <p
               style={{
                 fontSize: "2.0vw",
-                fontFamily: "ヒラギノ角ゴ Pro",
+                fontFamily: "source-han-sans-japanese",
                 marginLeft: "25%",
               }}
             >
@@ -324,7 +384,7 @@ const ProductTopContent = (props) => ({
             style={{
               color: "#454242",
               fontSize: props.fontSize,
-              fontFamily: "源ノ角ゴシック JP,ヒラギノ角ゴ Pro",
+              fontFamily: "source-han-sans-japanese",
             }}
           >
             {props.title}
@@ -344,12 +404,22 @@ const Product2020 = (props) => ({
           name={blog}
           width="95%"
           contentTitle={
-            <p style={{ fontSize: "2.2vw", fontFamily: "ヒラギノ角ゴ Pro" }}>
+            <p
+              style={{
+                fontSize: "2.2vw",
+                fontFamily: "source-han-sans-japanese",
+              }}
+            >
               アプリNaviブログ<br></br>
             </p>
           }
           description={
-            <p style={{ fontSize: "1.8vw", fontFamily: "ヒラギノ角ゴ Pro" }}>
+            <p
+              style={{
+                fontSize: "1.8vw",
+                fontFamily: "source-han-sans-japanese",
+              }}
+            >
               概要：アプリNavi部員が作成した記事を公開しています。<br></br>
               絶賛記事更新中！
               <br></br>
@@ -366,13 +436,23 @@ const Product2020 = (props) => ({
           name={virtualFes}
           width="95%"
           contentTitle={
-            <p style={{ fontSize: "2.2vw", fontFamily: "ヒラギノ角ゴ Pro" }}>
+            <p
+              style={{
+                fontSize: "2.2vw",
+                fontFamily: "source-han-sans-japanese",
+              }}
+            >
               府大バーチャル学祭<br></br>
               アプリNavi展示サイト<br></br>
             </p>
           }
           description={
-            <p style={{ fontSize: "1.8vw", fontFamily: "ヒラギノ角ゴ Pro" }}>
+            <p
+              style={{
+                fontSize: "1.8vw",
+                fontFamily: "source-han-sans-japanese",
+              }}
+            >
               概要：オンラインで学祭を行なった際に、作品を展示するために作ったHPです。
               <a
                 href="http://appnavi.html.xdomain.jp/index.html"
@@ -397,12 +477,22 @@ const Product2019 = (props) => ({
           name={spaceshooter}
           width="95%"
           contentTitle={
-            <p style={{ fontSize: "2.2vw", fontFamily: "ヒラギノ角ゴ Pro" }}>
+            <p
+              style={{
+                fontSize: "2.2vw",
+                fontFamily: "source-han-sans-japanese",
+              }}
+            >
               SpaceShooter<br></br>
             </p>
           }
           description={
-            <p style={{ fontSize: "1.8vw", fontFamily: "ヒラギノ角ゴ Pro" }}>
+            <p
+              style={{
+                fontSize: "1.8vw",
+                fontFamily: "source-han-sans-japanese",
+              }}
+            >
               概要：Android Studioを用いて作成した、<br></br>
               シンプルなSFシューティングゲームです。
               <br></br>
@@ -416,12 +506,22 @@ const Product2019 = (props) => ({
           name={tax_officer}
           width="95%"
           contentTitle={
-            <p style={{ fontSize: "2.2vw", fontFamily: "ヒラギノ角ゴ Pro" }}>
+            <p
+              style={{
+                fontSize: "2.2vw",
+                fontFamily: "source-han-sans-japanese",
+              }}
+            >
               税官、家を買う<br></br>
             </p>
           }
           description={
-            <p style={{ fontSize: "1.8vw", fontFamily: "ヒラギノ角ゴ Pro" }}>
+            <p
+              style={{
+                fontSize: "1.8vw",
+                fontFamily: "source-han-sans-japanese",
+              }}
+            >
               概要：税官になり、増税して、反対してくる納税者を大砲で吹っ飛ばしながら、集めた税金で大きな家を買うミニゲームです。
             </p>
           }
@@ -444,12 +544,22 @@ const Product2019 = (props) => ({
           name={rizufuru}
           width="95%"
           contentTitle={
-            <p style={{ fontSize: "2.2vw", fontFamily: "ヒラギノ角ゴ Pro" }}>
+            <p
+              style={{
+                fontSize: "2.2vw",
+                fontFamily: "source-han-sans-japanese",
+              }}
+            >
               りずふる<br></br>
             </p>
           }
           description={
-            <p style={{ fontSize: "1.8vw", fontFamily: "ヒラギノ角ゴ Pro" }}>
+            <p
+              style={{
+                fontSize: "1.8vw",
+                fontFamily: "source-han-sans-japanese",
+              }}
+            >
               概要：音楽のリズムに合わせて落ちてくる<br></br>
               果物を収穫するゲームです。<br></br>(2019年度白鷺祭展示)
             </p>
@@ -460,12 +570,22 @@ const Product2019 = (props) => ({
           name={undvo}
           width="65%"
           contentTitle={
-            <p style={{ fontSize: "2.2vw", fontFamily: "ヒラギノ角ゴ Pro" }}>
+            <p
+              style={{
+                fontSize: "2.2vw",
+                fontFamily: "source-han-sans-japanese",
+              }}
+            >
               UNDVO SOLTEX<br></br>
             </p>
           }
           description={
-            <p style={{ fontSize: "1.8vw", fontFamily: "ヒラギノ角ゴ Pro" }}>
+            <p
+              style={{
+                fontSize: "1.8vw",
+                fontFamily: "source-han-sans-japanese",
+              }}
+            >
               概要：無線コントローラとモバイルバッテリーでいつでもどこでもプレイできる、ポータブルかつ正統派な音ゲーです{" "}
               <br></br>(技術書名古屋の陣出展作品)
             </p>
@@ -494,7 +614,12 @@ const Product2018 = (props) => ({
           name={name}
           width="56%"
           contentTitle={
-            <p style={{ fontSize: "2.2vw", fontFamily: "ヒラギノ角ゴ Pro" }}>
+            <p
+              style={{
+                fontSize: "2.2vw",
+                fontFamily: "source-han-sans-japanese",
+              }}
+            >
               Name音衣夢{" "}
             </p>
           }
@@ -502,7 +627,7 @@ const Product2018 = (props) => ({
             <p
               style={{
                 fontSize: "1.8vw",
-                fontFamily: "ヒラギノ角ゴ Pro",
+                fontFamily: "source-han-sans-japanese",
                 lineHeight: "200%",
               }}
             >
@@ -528,12 +653,22 @@ const Product2018 = (props) => ({
           name={music}
           width="56%"
           contentTitle={
-            <p style={{ fontSize: "2.2vw", fontFamily: "ヒラギノ角ゴ Pro" }}>
+            <p
+              style={{
+                fontSize: "2.2vw",
+                fontFamily: "source-han-sans-japanese",
+              }}
+            >
               音楽リズムゲーム♫<br></br>
             </p>
           }
           description={
-            <p style={{ fontSize: "1.8vw", fontFamily: "ヒラギノ角ゴ Pro" }}>
+            <p
+              style={{
+                fontSize: "1.8vw",
+                fontFamily: "source-han-sans-japanese",
+              }}
+            >
               概要：音楽に合わせて画面をタッチして<br></br>得点を競おう
             </p>
           }
@@ -552,12 +687,22 @@ const Product2017 = (props) => ({
           name={newnavi}
           width="56%"
           contentTitle={
-            <p style={{ fontSize: "2.2vw", fontFamily: "ヒラギノ角ゴ Pro" }}>
+            <p
+              style={{
+                fontSize: "2.2vw",
+                fontFamily: "source-han-sans-japanese",
+              }}
+            >
               新入生Navi<br></br>
             </p>
           }
           description={
-            <p style={{ fontSize: "1.8vw", fontFamily: "ヒラギノ角ゴ Pro" }}>
+            <p
+              style={{
+                fontSize: "1.8vw",
+                fontFamily: "source-han-sans-japanese",
+              }}
+            >
               概要：大学の新入生歓迎イベントをまとめたカレンダーアプリ<br></br>
               <br></br>最新の新刊情報をいち早くお届け
             </p>
@@ -580,13 +725,23 @@ const Product2017 = (props) => ({
           name={vr}
           width="77%"
           contentTitle={
-            <p style={{ fontSize: "2.2vw", fontFamily: "ヒラギノ角ゴ Pro" }}>
+            <p
+              style={{
+                fontSize: "2.2vw",
+                fontFamily: "source-han-sans-japanese",
+              }}
+            >
               スクリーンゲーム<br></br>
               <br></br>VRアドベンチャー！
             </p>
           }
           description={
-            <p style={{ fontSize: "1.8vw", fontFamily: "ヒラギノ角ゴ Pro" }}>
+            <p
+              style={{
+                fontSize: "1.8vw",
+                fontFamily: "source-han-sans-japanese",
+              }}
+            >
               概要：弾を使って恐竜を倒すVRゲーム
             </p>
           }
@@ -596,13 +751,23 @@ const Product2017 = (props) => ({
           name={torokko}
           width="77%"
           contentTitle={
-            <p style={{ fontSize: "2.2vw", fontFamily: "ヒラギノ角ゴ Pro" }}>
+            <p
+              style={{
+                fontSize: "2.2vw",
+                fontFamily: "source-han-sans-japanese",
+              }}
+            >
               スクリーンゲーム<br></br>
               <br></br>トロッコクイズ
             </p>
           }
           description={
-            <p style={{ fontSize: "1.8vw", fontFamily: "ヒラギノ角ゴ Pro" }}>
+            <p
+              style={{
+                fontSize: "1.8vw",
+                fontFamily: "source-han-sans-japanese",
+              }}
+            >
               概要：トロッコに乗って２択クイズを解こう
             </p>
           }
@@ -612,13 +777,23 @@ const Product2017 = (props) => ({
           name={balloon}
           width="77%"
           contentTitle={
-            <p style={{ fontSize: "2.2vw", fontFamily: "ヒラギノ角ゴ Pro" }}>
+            <p
+              style={{
+                fontSize: "2.2vw",
+                fontFamily: "source-han-sans-japanese",
+              }}
+            >
               スクリーンゲーム<br></br>
               <br></br>風船パーセント
             </p>
           }
           description={
-            <p style={{ fontSize: "1.8vw", fontFamily: "ヒラギノ角ゴ Pro" }}>
+            <p
+              style={{
+                fontSize: "1.8vw",
+                fontFamily: "source-han-sans-japanese",
+              }}
+            >
               概要：世の中のパーセント（割合）を当てるクイズ
             </p>
           }
@@ -638,7 +813,7 @@ const buttonStyle = {
   textAlign: "center",
   textDecoration: "none",
   color: "#454242",
-  fontFamily: "ヒラギノ角ゴ Pro",
+  fontFamily: "source-han-sans-japanese",
   fontWeight: "bold",
   fontSize: "2.0vw",
   paddingTop: "2.0vw",
@@ -694,7 +869,7 @@ const Works = () => (
         margin: 0,
         paddingTop: "10.0vw",
         paddingBottom: "4.0vw",
-        fontFamily: "ヒラギノ角ゴ Pro",
+        fontFamily: "source-han-sans-japanese",
       }}
     >
       Works
@@ -779,7 +954,7 @@ const ProductPage = () => (
           margin: 0,
           paddingTop: "10.0vw",
           paddingBottom: "3.0vw",
-          fontFamily: "ヒラギノ角ゴ Pro",
+          fontFamily: "source-han-sans-japanese",
         }}
       >
         Works
