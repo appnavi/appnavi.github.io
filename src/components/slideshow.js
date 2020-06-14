@@ -3,7 +3,8 @@ import { Slide } from "react-slideshow-image";
 import home from "../images/Home.jpg";
 import { Link } from "react-router-dom";
 import spring from "../images/spring.jpg";
-import blogNote from "../images/notebook.png";
+import blogNote from "../images/BlogAdvertise.png";
+import HoverButton from "./hoverButton";
 
 /*const slideImages = [
   'images/slide_2.jpg',
@@ -63,7 +64,7 @@ const Slideshow = () => {
             </p>
           </div>
         </div>
-        {/*<div style={{ backgroundColor: "white" }} className="each-slide">
+        <div style={{ backgroundColor: "white" }} className="each-slide">
           <div
             style={{
               maxWidth: "100%",
@@ -73,33 +74,36 @@ const Slideshow = () => {
               position: "relative",
             }}
           >
-            <p
+            <div
               style={{
-                color: "black",
-                fontSize: "2.3vw",
-                fontWeight: "bold",
-                fontFamily: "Kosugi Maru, sans-serif",
                 position: "absolute",
-                top: "20.0vw",
-                right: "20vw",
+                top: "21.9vw",
+                right: "8.3vw",
+                width: "42.9vw",
+                height: "27vw",
+                borderRadius: "100%",
+                backgroundColor: "#FFFFFFD9",
+                opacity: 1,
+                textAlign: "center",
               }}
             >
-              部員ブログ始めました！<br></br>
-              ぜひ覗いてみてください↓
-            </p>
-            <p
-              style={{
-                color: "white",
-                fontSize: "1.2vw",
-                fontFamily: "ヒラギノ角ゴ Pro",
-                fontWeight: "bold",
-                position: "absolute",
-                top: "29.5vw",
-                right: "9.2vw",
-              }}
-            ></p>
+              <p
+                style={{
+                  color: "#454242",
+                  fontSize: "2.08vw",
+                  fontFamily: "Kosugi Maru, sans-serif",
+                  textAlign: "center",
+                  marginTop: "7.5vw",
+                  lineHeight: "3.5vw",
+                }}
+              >
+                部員ブログ始めました！<br></br>
+                ぜひ覗いてみてください↓
+              </p>
+              <HoverButton />
+            </div>
           </div>
-            </div>*/}
+        </div>
 
         <div className="each-slide">
           <div
