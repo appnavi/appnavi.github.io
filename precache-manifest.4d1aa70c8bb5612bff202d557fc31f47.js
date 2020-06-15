@@ -1,23 +1,23 @@
 self.__precacheManifest = [
   {
-    "revision": "3c2d6ec0fd2a5d5a9415",
+    "revision": "1b399e036a5174756b33",
     "url": "/static/css/main.1dff455e.chunk.css"
   },
   {
-    "revision": "3c2d6ec0fd2a5d5a9415",
-    "url": "/static/js/main.04ccecc7.chunk.js"
+    "revision": "1b399e036a5174756b33",
+    "url": "/static/js/main.cfddc22d.chunk.js"
   },
   {
     "revision": "42ac5946195a7306e2a5",
     "url": "/static/js/runtime~main.a8a9905a.js"
   },
   {
-    "revision": "f0ca224e32075a26cfb1",
+    "revision": "025bcbbed821d728ba44",
     "url": "/static/css/2.120cb024.chunk.css"
   },
   {
-    "revision": "f0ca224e32075a26cfb1",
-    "url": "/static/js/2.d18f597e.chunk.js"
+    "revision": "025bcbbed821d728ba44",
+    "url": "/static/js/2.2b2b47da.chunk.js"
   },
   {
     "revision": "6a2832abfb5458fe896556375f82c507",
@@ -72,8 +72,8 @@ self.__precacheManifest = [
     "url": "/static/media/newsTop.dbd60657.jpg"
   },
   {
-    "revision": "1d6b512a809a823dcbfa05f32a3167dc",
-    "url": "/static/media/contact.1d6b512a.png"
+    "revision": "a6c646e5dfcf8941c1b689bf2b240d03",
+    "url": "/static/media/contact.a6c646e5.png"
   },
   {
     "revision": "2cd12d849cdf7d5543c402269e68f20b",
@@ -156,23 +156,15 @@ self.__precacheManifest = [
     "url": "/static/media/spring.1308a1e5.jpg"
   },
   {
+    "revision": "b9f7eb5614a62a18cb0a57d9feceefb6",
+    "url": "/static/media/BlogAdvertise.b9f7eb56.png"
+  },
+  {
     "revision": "fd25c3890ea6292fb989709f387e3e46",
     "url": "/static/media/appnaviloading.fd25c389.png"
   },
   {
-    "revision": "a1511671c9b945fbb4ab72268aa65e67",
-    "url": "/static/media/nameIcon.a1511671.png"
-  },
-  {
-    "revision": "765aa5954e4f23f82a3f6a5276abf30f",
-    "url": "/static/media/naviIcon.765aa595.png"
-  },
-  {
-    "revision": "97f76ba204932a0fac5e7d6663734f39",
-    "url": "/static/media/notebook.97f76ba2.png"
-  },
-  {
-    "revision": "e8ebb9ddb9f1d2397cd28b5b2c8d0046",
+    "revision": "4905f8b883d8c794109867296eeeca23",
     "url": "/index.html"
   }
 ];
